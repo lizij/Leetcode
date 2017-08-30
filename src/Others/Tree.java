@@ -21,6 +21,7 @@ public class Tree {
         node = new TreeNode((int)a[i]);
         node.left = generateTreeFromArray(a, 2 * i + 1);
         node.right = generateTreeFromArray(a, 2 * i + 2);
+        N++;
         return node;
     }
 
@@ -32,5 +33,10 @@ public class Tree {
 
         StdOut.println(at.root);
         StdOut.println(bt.root);
+    }
+
+    @Override
+    public String toString() {
+        return "Tree{" + root.toString() + "}";
     }
 }
