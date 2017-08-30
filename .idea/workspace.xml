@@ -2,7 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe0362a-d345-4fd8-a2e6-3d2c6c8161ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Arithmetic_Slices/Readmd.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Array_Partition_I/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Average_of_Levels_in_Binary_Tree/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Battleships_in_a_Board/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Beautiful_Arrangement/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Complex_Number_Multiplication/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Counting_Bits/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Detect_Capital/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Distribute_Candies/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Encode_and_Decode_TinyURL/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Find_All_Duplicates_in_an_Array/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Find_Bottom_Left_Tree_Value/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Find_Duplicate_File_in_System/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Find_Largest_Value_in_Each_Tree_Row/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Fizz_Buzz/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Generate_Parentheses/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Generate_Parentheses/solution.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Island_Perimeter/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Judge_Route_Circle/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Keyboard_Row/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Longest_Uncommon_Subsequence_I/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Longest_Valid_Parentheses/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Longest_Valid_Parentheses/solution.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Longest_Word_in_Dictionary_through_Deleting/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Longest_Word_in_Dictionary_through_Deleting/Solution.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Max_Consecutive_Ones/Readmd.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Maximum_Binary_Tree/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Maximum_Depth_of_Binary_Tree/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Merge_Two_Binary_Trees/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Most_Frequent_Subtree_Sum/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Next_Greater_Element_I/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Nim_Game/Reamd.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Number_Complement/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Optimal_Division/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Palindromic_Substrings/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Queue_Reconstruction_by_Height/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Reshape_the_Matrix/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Reverse_String/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Reverse_Words_in_a_String_III/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Single_Element_in_a_Sorted_Array/Readmd.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Single_Number/Readmd.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Valid_Parentheses/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Leetcode/Valid_Parentheses/solution.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,12 +70,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
               <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="69">
+                <caret line="3" column="88" lean-forward="false" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -71,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Reshape_the_Matrix/Solution.java" />
         <option value="$PROJECT_DIR$/src/Reverse_String/Readme.md" />
         <option value="$PROJECT_DIR$/src/Reverse_String/Solution.java" />
         <option value="$PROJECT_DIR$/src/Fizz_Buzz/Readme.md" />
@@ -122,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/Detect_Capital/Readme.md" />
         <option value="$PROJECT_DIR$/src/Detect_Capital/Solution.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Readme.md" />
       </list>
     </option>
   </component>
@@ -514,13 +569,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Fizz_Buzz/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Island_Perimeter/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -901,6 +949,17 @@
         <state relative-caret-position="23">
           <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="69">
+            <caret line="3" column="88" lean-forward="false" selection-start-line="3" selection-start-column="88" selection-end-line="3" selection-end-column="88" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
