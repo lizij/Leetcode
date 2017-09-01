@@ -1,5 +1,7 @@
 # Custom
 out/
+venv/
+ghostdriver.log
 
 # Compiled class file
 *.class
