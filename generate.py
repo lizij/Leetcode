@@ -52,6 +52,7 @@ def getProblemPage(argv, codeLang = "java"):
                "public %s\r\n" \
                "\tpublic static void main(String[] args) {\r\n" \
                "\t\tSolution s = new Solution();\r\n\t}\r\n}" % (packageName, code[:-1])
+        description = description.replace("Input", "```\r\nInput").replace("Note", "```\r\nNote")
 
         generateProblemPackage(packageName, code=code, description=description)
 
