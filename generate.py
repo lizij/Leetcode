@@ -29,9 +29,13 @@ def generateProblemPackage(name, code = None, description = None):
 def getProblemPage(argv, codeLang = "java"):
     url = BASE_URL + "/problems/" + "-".join(argv).lower() + "/description/"
     print("Start to get infomation from %s" % url)
-    # browser = webdriver.Chrome("chromedriver.exe")
+    service_args = [
+        '--proxy=127.0.0.1:1080',
+        '--proxy-type=socks5',
+    ]
     try:
-        browser = webdriver.PhantomJS(os.path.join("browser", "phantomjs.exe"))
+        # browser = webdriver.Chrome(os.path.join("browser", "chromedriver.exe"))
+        browser = webdriver.PhantomJS(executable_path=os.path.join("browser", "phantomjs.exe"), service_args=service_args)
         browser.get(url)
         description = browser.find_element_by_class_name("question-description").text
         print("Description:%s..." % description[0:10])
