@@ -34,7 +34,7 @@ def getProblemPage(argv, codeLang = "java"):
         browser = webdriver.PhantomJS(os.path.join("browser", "phantomjs.exe"))
         browser.get(url)
         description = browser.find_element_by_class_name("question-description").text
-        print("Description:%s" % description)
+        print("Description:%s..." % description[0:10])
         lang = Select(browser.find_element_by_name("lang"))
         lang.select_by_value(codeLang)
         browser.refresh()
