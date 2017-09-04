@@ -1,3 +1,4 @@
+
 ## Problem Description
 Given a singly linked list, return a random node's value from the linked list. Each node must have the same probability of being chosen.
 Follow up:
@@ -63,5 +64,4 @@ for (int i = 1;node != null;i++, node = node.next){
 
 In the first loop, randomInt(1) == 0 will always be true. It will actually initialize **res** in a obscure way.
 
-In other loops, for every i, calculate $P_i$ to decide whether node can be the possible result. Because we traver the list ascendingly, the previous result will be unuseful to decide $P_{i^{th}}$
-
+In other loops, for every i, calculate $P_i$ to decide whether node can be the possible result. Because we traver the list ascendingly, the previous result will be unuseful to decide $P_{i^{th}}$ 
