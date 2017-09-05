@@ -9,13 +9,13 @@ public class TreeNode {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append("{" + val + ":");
+        builder.append(val + "(");
         if (left != null) builder.append(left.toString());
-        else builder.append("null");
-        builder.append(",");
+        else builder.append("N");
+        builder.append("|");
         if (right != null) builder.append(right.toString());
-        else builder.append("null");
-        builder.append("}");
+        else builder.append("N");
+        builder.append(")");
         return builder.toString();
     }
 }

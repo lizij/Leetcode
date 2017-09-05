@@ -1,5 +1,5 @@
 #!coding=utf-8
-import codecs, time, sys, os, traceback
+import codecs, time, sys, os, traceback, re
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
 
@@ -30,8 +30,8 @@ def getProblemPage(argv, codeLang = "java"):
     url = BASE_URL + "/problems/" + "-".join(argv).lower() + "/description/"
     print("Start to get infomation from %s" % url)
     service_args = [
-        # '--proxy=127.0.0.1:1080',
-        # '--proxy-type=socks5',
+        '--proxy=127.0.0.1:1080',
+        '--proxy-type=socks5',
     ]
     try:
         # browser = webdriver.Chrome(os.path.join("browser", "chromedriver.exe"))
@@ -52,6 +52,8 @@ def getProblemPage(argv, codeLang = "java"):
 
     if codeLang == "java":
         packageName = "_".join(argv)
+        if re.match("^\d.*", packageName):
+            packageName = "_" + packageName
         code = "package %s;\r\n" \
                "public %s\r\n" \
                "\tpublic static void main(String[] args) {\r\n" \
@@ -61,4 +63,7 @@ def getProblemPage(argv, codeLang = "java"):
         generateProblemPackage(packageName, code=code, description=description)
 
 if __name__ == "__main__":
+    if (len(sys.argv) < 2):
+        print("Usage:python3 generate.py [problem name]")
+        exit(0)
     getProblemPage(sys.argv[1:])
