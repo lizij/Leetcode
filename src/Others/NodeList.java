@@ -11,7 +11,10 @@ public class NodeList {
                 head = node;
                 tail = node;
             }
-            else tail.next = node;
+            else {
+                tail.next = node;
+                tail = node;
+            }
         }
     }
 
@@ -19,7 +22,10 @@ public class NodeList {
     public String toString() {
         StringBuilder builder = new StringBuilder();
         ListNode node = head;
-        while (node != null) builder.append(node.toString() + "->");
+        while (node != null) {
+            builder.append(node.toString()).append("->");
+            node = node.next;
+        }
         return builder.toString();
     }
 }
