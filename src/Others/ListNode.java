@@ -7,6 +7,12 @@ public class ListNode {
 
     @Override
     public String toString() {
-        return val + "";
+        StringBuilder builder = new StringBuilder();
+        ListNode node = this;
+        while (node != null) {
+            builder.append(node.val).append("->");
+            node = node.next;
+        }
+        return builder.toString();
     }
 }

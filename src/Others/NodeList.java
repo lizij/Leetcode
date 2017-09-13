@@ -20,12 +20,6 @@ public class NodeList {
 
     @Override
     public String toString() {
-        StringBuilder builder = new StringBuilder();
-        ListNode node = head;
-        while (node != null) {
-            builder.append(node.toString()).append("->");
-            node = node.next;
-        }
-        return builder.toString();
+        return head.toString();
     }
 }
