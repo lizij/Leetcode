@@ -2,10 +2,7 @@ package Task_Scheduler;
 
 import edu.princeton.cs.algs4.StdOut;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.PriorityQueue;
 
 public class Solution {
     public int leastInterval(char[] tasks, int n) {
