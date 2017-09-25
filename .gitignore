@@ -3,6 +3,7 @@ out/
 venv/
 ghostdriver.log
 .vscode/
+CleanCodeHandbook_v1.0.3.pdf
 
 # Compiled class file
 *.class
