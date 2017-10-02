@@ -30,8 +30,8 @@ def getProblemPage(argv, codeLang = "java"):
     url = BASE_URL + "/problems/" + "-".join(argv).lower() + "/description/"
     print("Start to get infomation from %s" % url)
     service_args = [
-        # '--proxy=127.0.0.1:1080',
-        # '--proxy-type=socks5',
+        '--proxy=127.0.0.1:1080',
+        '--proxy-type=socks5',
     ]
     try:
         # browser = webdriver.Chrome(os.path.join("browser", "chromedriver.exe"))
