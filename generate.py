@@ -26,7 +26,7 @@ def generateProblemPackage(name, code = None, description = None):
         solution.flush()
         solution.close()
 
-def getProblemPage(argv, codeLang = "java"):
+def getProblemPage(argv, lang ="java"):
     url = BASE_URL + "/problems/" + "-".join(argv).lower() + "/description/"
     print("Start to get infomation from %s" % url)
     service_args = [
@@ -34,30 +34,30 @@ def getProblemPage(argv, codeLang = "java"):
         '--proxy-type=socks5',
     ]
     try:
-        # browser = webdriver.Chrome(os.path.join("browser", "chromedriver.exe"))
-        browser = webdriver.PhantomJS(executable_path=os.path.join("browser", "phantomjs.exe"), service_args=service_args)
+        browser = webdriver.Chrome(executable_path=os.path.join("browser", "chromedriver"), service_args=service_args)
+        # browser = webdriver.PhantomJS(executable_path=os.path.join("browser", "phantomjs.exe"), service_args=service_args)
         browser.get(url)
         description = browser.find_element_by_class_name("question-description").text
         print("Description:%s..." % description[0:10])
-        lang = Select(browser.find_element_by_name("lang"))
-        lang.select_by_value(codeLang)
-        browser.refresh()
-        code = browser.find_element_by_name("lc-codemirror").get_attribute("value")
-        print("Code of %s:\r\n%s" % (codeLang, code))
+        # langSelect = Select(browser.find_element_by_name("lang"))
+        # langSelect.select_by_value(lang)
+        # browser.refresh()
+        # code = browser.find_element_by_name("lc-codemirror").get_attribute("value")
+        # print("Code of %s:\r\n%s" % (lang, code))
         browser.quit()
     except:
         traceback.print_exc()
         exit(0)
 
 
-    if codeLang == "java":
+    if lang == "java":
         packageName = "_".join(argv)
         if re.match("^\d.*", packageName):
             packageName = "_" + packageName
         code = "package %s;\r\n" \
-               "public %s\r\n" \
+               "public \r\n" \
                "\tpublic static void main(String[] args) {\r\n" \
-               "\t\tSolution s = new Solution();\r\n\t}\r\n}" % (packageName, code[:-1])
+               "\t\tSolution s = new Solution();\r\n\t}\r\n}" % packageName
         description = description.replace("Input", "```\r\nInput").replace("Note", "```\r\nNote")
 
         generateProblemPackage(packageName, code=code, description=description)
