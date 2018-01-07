@@ -1,12 +1,15 @@
 #!coding=utf-8
-import codecs, time, sys, os, traceback, re
+import codecs, sys, os, traceback, re
 from selenium import webdriver
-from selenium.webdriver.support.select import Select
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support.expected_conditions import element_to_be_clickable, visibility_of_element_located
+from selenium.webdriver.common.by import By
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 BASE_URL = "https://leetcode.com"
 
-def generateProblemPackage(name, code = None, description = None):
+def createPackage(name, code = None, description = None):
 
     problemDir = os.path.join(os.path.join(BASE_DIR, "src"), name)
     print("Creating package at:%s" % problemDir)
@@ -26,25 +29,38 @@ def generateProblemPackage(name, code = None, description = None):
         solution.flush()
         solution.close()
 
-def getProblemPage(argv, lang ="java"):
-    url = BASE_URL + "/problems/" + "-".join(argv).lower() + "/description/"
-    print("Start to get infomation from %s" % url)
+def getDescriptionCode(argv, lang ="java"):
+    url = "{}/problems/{}/description/".format(BASE_URL, "-".join(argv).lower())
+    print("Start getting infomation from %s" % url)
     service_args = [
         '--proxy=127.0.0.1:1080',
         '--proxy-type=socks5',
     ]
     try:
-        browser = webdriver.Chrome(executable_path=os.path.join("browser", "chromedriver"), service_args=service_args)
-        # browser = webdriver.PhantomJS(executable_path=os.path.join("browser", "phantomjs.exe"), service_args=service_args)
-        browser.get(url)
-        description = browser.find_element_by_class_name("question-description").text
+        # Get web driver
+        driver = webdriver.Chrome(executable_path=os.path.join("browser", "chromedriver"), service_args=service_args)
+        # browser = webdriver.PhantomJS(executable_path=os.path.join("browser", "phantomjs"), service_args=service_args)
+        driver.get(url)
+
+        # Set language
+        # wait = WebDriverWait(driver=driver, timeout=5)
+        # wait.until(method=visibility_of_element_located((By.CLASS_NAME, "Select-control")))
+        # lang_dropdown = driver.find_element_by_class_name("Select-control")
+        # print(lang_dropdown)
+        # actions = ActionChains(driver)
+        # actions.move_to_element(lang_dropdown).click()
+        # actions.perform()
+        # wait.until(method=visibility_of_element_located((By.CLASS_NAME, "Select-menu-outer")))
+        # actions.reset_actions()
+        # actions.move_to_element_with_offset(lang_dropdown, 5, 100).click().perform()
+        # driver.refresh()
+
+        description = driver.find_element_by_class_name("question-description").text
         print("Description:%s..." % description[0:10])
-        # langSelect = Select(browser.find_element_by_name("lang"))
-        # langSelect.select_by_value(lang)
-        # browser.refresh()
-        # code = browser.find_element_by_name("lc-codemirror").get_attribute("value")
-        # print("Code of %s:\r\n%s" % (lang, code))
-        browser.quit()
+
+        code = driver.find_element_by_name("lc-codemirror").get_attribute("value")
+        print("Code of %s:\r\n%s" % (lang, code))
+        driver.quit()
     except:
         traceback.print_exc()
         exit(0)
@@ -55,15 +71,15 @@ def getProblemPage(argv, lang ="java"):
         if re.match("^\d.*", packageName):
             packageName = "_" + packageName
         code = "package %s;\r\n" \
-               "public \r\n" \
+               "public class Solution {\r\n" \
                "\tpublic static void main(String[] args) {\r\n" \
                "\t\tSolution s = new Solution();\r\n\t}\r\n}" % packageName
         description = description.replace("Input", "```\r\nInput").replace("Note", "```\r\nNote")
 
-        generateProblemPackage(packageName, code=code, description=description)
+        createPackage(packageName, code=code, description=description)
 
 if __name__ == "__main__":
     if (len(sys.argv) < 2):
         print("Usage:python3 generate.py [problem name]")
         exit(0)
-    getProblemPage(sys.argv[1:])
+    getDescriptionCode(sys.argv[1:])
