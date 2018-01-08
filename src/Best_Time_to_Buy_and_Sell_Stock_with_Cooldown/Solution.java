@@ -6,7 +6,7 @@ public class Solution {
     public int maxProfit(int[] prices) {
         /**
          * There are three states of money in total and three operations (buy, sell, rest)
-         * for prices[i], assuming money is s, s will be s - prices[i] after buy or s + prices[i] after sell. Rest means no money in or out.
+         * for prices[i], assuming money is s, s will be s - prices[i] after buy or s + prices[i] after sell. rest means no buy or sell and no money in or out.
          * assume three states as s0, s1, s2 (in code they are s[i])
          * s0: buy->s1, rest->s0
          * s1: sell->s2, rest->s1

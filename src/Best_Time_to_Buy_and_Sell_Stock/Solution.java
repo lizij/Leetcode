@@ -4,13 +4,14 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class Solution {
     public int maxProfit(int[] prices) {
+        /**
+         * Try to find the diff of left bottom and right top
+         * 3ms
+         */
         int max = 0;
-//        for (int i = 0, min = Integer.MAX_VALUE; i < prices.length; i++) {
-//            min = Math.min(min, prices[i]);
-//            max = Math.max(max, prices[i] - min);
-//        }
         for (int i = 0, maxCur = 0; i < prices.length - 1; i++) {
-            max = Math.max(max, maxCur = Math.max(0, maxCur + prices[i + 1] - prices[i]));
+            maxCur = Math.max(0, maxCur + prices[i + 1] - prices[i]); // profit of buy on i and sell on i + 1
+            max = Math.max(max, maxCur); // accumulate these possible profits
         }
         return max;
 
@@ -18,6 +19,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.maxProfit(new int[]{7, 1, 5, 3, 6, 4}));
+        StdOut.println(s.maxProfit(new int[]{7, 1, 5, 3, 6, 4})); // 5
+        StdOut.println(s.maxProfit(new int[]{7, 6, 4, 3, 1})); // 0
 	}
 }

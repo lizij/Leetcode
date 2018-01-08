@@ -9,27 +9,27 @@ from selenium.webdriver.common.by import By
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 BASE_URL = "https://leetcode.com"
 
-def createPackage(name, code = None, description = None):
+def create_package(name, code = None, description = None):
 
-    problemDir = os.path.join(os.path.join(BASE_DIR, "src"), name)
-    print("Creating package at:%s" % problemDir)
-    if not os.path.exists(problemDir):
-        os.mkdir(problemDir)
-    readmeName = os.path.join(problemDir, "Readme.md")
-    if not os.path.exists(readmeName):
-        readme = codecs.open(filename=readmeName, mode="w", encoding="utf-8")
+    problem_dir = os.path.join(os.path.join(BASE_DIR, "src"), name)
+    print("Creating package at:%s" % problem_dir)
+    if not os.path.exists(problem_dir):
+        os.mkdir(problem_dir)
+    readme_name = os.path.join(problem_dir, "Readme.md")
+    if not os.path.exists(readme_name):
+        readme = codecs.open(filename=readme_name, mode="w", encoding="utf-8")
         if description:
             readme.write(description)
         readme.close()
-    solutionName = os.path.join(problemDir, "Solution.java")
-    if not os.path.exists(solutionName):
-        solution = codecs.open(filename=solutionName, mode="w", encoding="utf-8")
+    solution_name = os.path.join(problem_dir, "Solution.java")
+    if not os.path.exists(solution_name):
+        solution = codecs.open(filename=solution_name, mode="w", encoding="utf-8")
         if code:
             solution.write(code)
         solution.flush()
         solution.close()
 
-def getDescriptionCode(argv, lang ="java"):
+def get_description_code(argv, lang ="java"):
     url = "{}/problems/{}/description/".format(BASE_URL, "-".join(argv).lower())
     print("Start getting infomation from %s" % url)
     service_args = [
@@ -39,7 +39,7 @@ def getDescriptionCode(argv, lang ="java"):
     try:
         # Get web driver
         driver = webdriver.Chrome(executable_path=os.path.join("browser", "chromedriver"), service_args=service_args)
-        # browser = webdriver.PhantomJS(executable_path=os.path.join("browser", "phantomjs"), service_args=service_args)
+        # driver = webdriver.PhantomJS(executable_path=os.path.join("browser", "phantomjs"), service_args=service_args)
         driver.get(url)
 
         # Set language
@@ -67,19 +67,19 @@ def getDescriptionCode(argv, lang ="java"):
 
 
     if lang == "java":
-        packageName = "_".join(argv)
-        if re.match("^\d.*", packageName):
-            packageName = "_" + packageName
+        package_name = "_".join(argv)
+        if re.match("^\d.*", package_name):
+            package_name = "_" + package_name
         code = "package %s;\r\n" \
                "public class Solution {\r\n" \
                "\tpublic static void main(String[] args) {\r\n" \
-               "\t\tSolution s = new Solution();\r\n\t}\r\n}" % packageName
+               "\t\tSolution s = new Solution();\r\n\t}\r\n}" % package_name
         description = description.replace("Input", "```\r\nInput").replace("Note", "```\r\nNote")
 
-        createPackage(packageName, code=code, description=description)
+        create_package(package_name, code=code, description=description)
 
 if __name__ == "__main__":
     if (len(sys.argv) < 2):
         print("Usage:python3 generate.py [problem name]")
         exit(0)
-    getDescriptionCode(sys.argv[1:])
+    get_description_code(sys.argv[1:])
