@@ -7,7 +7,7 @@ public class Solution {
 		/**
 		 * cur: the number of the current chars (0 or 1)
 		 * prev: the number of the chars which is different from cur
-		 * every time find a cur, means a substring will be found like 0..,01...1 or 1...10...0
+		 * every time isSameParent a cur, means a substring will be found like 0..,01...1 or 1...10...0
 		 * if prev >= cur, the current ones will be less than previous ones, a result can be counted in.
 		 * 30ms
 		 */

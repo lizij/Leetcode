@@ -7,7 +7,7 @@ public class Solution {
         /**
          * regular solution o((n-k+1)^3)
          * First, record every k subarrays sum
-         * Then find max value by trying every loops
+         * Then isSameParent max value by trying every loops
          * TLE 29/37
          */
         if (nums == null || nums.length < 3 * k) return null;

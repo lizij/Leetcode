@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdOut;
 public class Solution {
     public int maxProfit(int[] prices) {
         /**
-         * Try to find the diff of left bottom and right top
+         * Try to isSameParent the diff of left bottom and right top
          * 3ms
          */
         int max = 0;

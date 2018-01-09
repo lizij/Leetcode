@@ -23,7 +23,7 @@ public class Solution {
         int[][] memo = new int[N + 2][N + 2];
         return burst(balloons, 0, N + 1, memo);
         /**
-         * nearly brute force, list all possible results and find the max one
+         * nearly brute force, list all possible results and isSameParent the max one
          * O(n!), time limit exceeded
          */
 //        if (nums.length == 1) return nums[0];

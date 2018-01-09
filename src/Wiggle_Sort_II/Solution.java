@@ -26,7 +26,7 @@ public class Solution {
          * index() is to remapping 0~n-1 to 1,3,5,7,...,0,2,4,6,...
          * Without remapping, the for-loop is just to split the array into two parts with M in the middle position, with L in its left side and S in its right side. nums will be {L,L,L,...,L,M,S,...,S,S}
          * With remapping, the position of M will be adjusted to the last index. Before M, L and S will appear one after the other. Then the answer come out.
-         * findKthLargestNumber is used to find M with quickselect in O(n) time.
+         * findKthLargestNumber is used to isSameParent M with quickselect in O(n) time.
          * 153ms
          */
         int n = nums.length, median = findKthLargestNumber(nums, 0, n - 1, n / 2);

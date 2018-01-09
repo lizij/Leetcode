@@ -2,7 +2,7 @@ package Find_Minimum_in_Rotated_Sorted_Array_II;
 public class Solution {
     public int findMin(int[] nums) {
         /**
-         * simple traverse once to find min
+         * simple traverse once to isSameParent min
          * 1ms
          */
 //        int res = Integer.MAX_VALUE;

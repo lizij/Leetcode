@@ -5,7 +5,7 @@ public class Solution {
     public int maximumSwap(int num) {
         /**
          * Traverse digits from left to right and record every last position of digit 0-9 in this num,
-         * Then traverse again and for every digit, find the largest one from the record to swap with.
+         * Then traverse again and for every digit, isSameParent the largest one from the record to swap with.
          * In a word, try to swap the smaller ones in the left part, with the larger ones in the right part.
          */
         char[] digits = Integer.toString(num).toCharArray();

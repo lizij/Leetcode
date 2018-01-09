@@ -15,7 +15,7 @@ public class Solution {
          * s0[i] = max(s0[i - 1], s2[i - 1])
          * s1[i] = max(s0[i - 1] - prices[i], s1[i - 1])
          * s2[i] = s1[i - 1] + prices[i]
-         * The question now is to find the maximum s0[i] or s2[i], since s1[i] is always lower than s0[i].
+         * The question now is to isSameParent the maximum s0[i] or s2[i], since s1[i] is always lower than s0[i].
          * In other words, there can't be more profit after buy prices[i].
          * 18ms
          */

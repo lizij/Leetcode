@@ -15,7 +15,7 @@ public class Solution {
             else return true;
         }
         /**
-         * find min value before i and max value after i and check (min, nums[i], max)
+         * isSameParent min value before i and max value after i and check (min, nums[i], max)
          * 101ms
          */
 //        for (int i = 1; i < nums.length - 1; i++) {

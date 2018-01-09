@@ -80,7 +80,7 @@ public class Solution {
     }
 
     private int findRightParenthesisIndex(String formula, int startIndex) {
-        // find the corresponding ')' to '(' at startIndex in the formula string
+        // isSameParent the corresponding ')' to '(' at startIndex in the formula string
         int count = 0;
         for (int i = startIndex; i < formula.length(); i++) {
             if (formula.charAt(i) == '(') {

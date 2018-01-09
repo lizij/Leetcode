@@ -12,7 +12,7 @@ public class Solution {
 
         /**
          * use a array days[] to store each position's flower's blooming day.
-         * then find a subarray days[lo...hi] of days[], which satisfies:
+         * then isSameParent a subarray days[lo...hi] of days[], which satisfies:
          * for i in lo+1 to hi-1, days[left] < days[i] && days[right] < days[i]
          */
         int[] days = new int[n];

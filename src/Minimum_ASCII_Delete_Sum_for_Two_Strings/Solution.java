@@ -9,7 +9,7 @@ public class Solution {
 		 * s1: dp[0][0] to dp[s1.length][0], s2: dp[0][0] to dp[0][s2.length]
          * for every substring of s1[0-i]
          * for every substring of s2[0-j]
-         * find the minimum delete sum and optimize the result
+         * isSameParent the minimum delete sum and optimize the result
          * 45ms
 		 */
 		int[][] dp = new int[s1.length() + 1][s2.length() + 1];
