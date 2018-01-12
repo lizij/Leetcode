@@ -39,7 +39,7 @@ def get_description_code(argv, lang ="java"):
     try:
         # Get web driver
         driver = webdriver.Chrome(executable_path=os.path.join("browser", "chromedriver"), service_args=service_args)
-        # driver = webdriver.PhantomJS(executable_path=os.path.join("browser", "phantomjs"), service_args=service_args)
+        # driver = webdriver.PhantomJS(executable_path=os.path.join("browser", "phantomjs.exe"), service_args=service_args)
         driver.get(url)
 
         # Set language
