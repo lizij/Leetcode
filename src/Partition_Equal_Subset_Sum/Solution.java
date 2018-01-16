@@ -4,19 +4,34 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class Solution {
     public boolean canPartition(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return false;
+        }
+
+        /**
+         * DP solution
+         * Assume dp[i][j] means whether the specific sum j can be gotten from nums[0...i].
+         * For nums[i], if we don't pick it, dp[i][j] = dp[i - 1][j]
+         * If we pick it, dp[i][j] = dp[i - 1][j - nums[i]], if j > nums[i]
+         * In a word, dp[i][j] = dp[i - 1][j] || dp[i - 1][j - nums[i]]
+         * Because the backward results are depending on the previous results, we can optimize the extra space by traversing in reversed order
+         * 24ms
+         */
         int sum = 0;
-        for (int i: nums) sum += i;
+        for (int i: nums) {
+            sum += i;
+        }
         return (sum & 1) == 0 && subSetSum(nums, sum / 2);
     }
 
     private boolean subSetSum(int[] nums, int s){
         boolean[] dp = new boolean[s + 1];//all possible values from 0 - s
-        dp[0] = true;//choose no one
-        for (int i: nums) {
-            for (int j = s; j >= i; j--) {  //based on the previous result, calculate how many j can be formed by j - i plus i
-                dp[j] = dp[j] || dp[j - i];          //why traverse in descending order:In this way, the impossible results won't be influenced.
-            }                               // If we traverse in ascending order, the previous result changed and larger results started to emerge.
-        }                                   // Impossible results will emerge because it is based on j and j has already add i once. It will add i twice and that's incorrect.
+        dp[0] = true; // 0-sum is true, choose no one
+        for (int num: nums) {
+            for (int j = s; j >= num; j--) {
+                dp[j] = dp[j] || dp[j - num];
+            }
+        }
         return dp[s];
     }
 
