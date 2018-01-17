@@ -54,7 +54,7 @@ def get_description_code(argv, lang ="java"):
         # actions.reset_actions()
         # actions.move_to_element_with_offset(lang_dropdown, 5, 100).click().perform()
         # driver.refresh()
-
+        WebDriverWait(driver=driver, timeout=5).until(method=visibility_of_element_located((By.CLASS_NAME, "question-description")))
         description = driver.find_element_by_class_name("question-description").text
         print("Description:%s..." % description[0:10])
 
