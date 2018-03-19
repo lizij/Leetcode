@@ -36,34 +36,35 @@ def get_description_code(argv, lang ="java"):
         '--proxy=127.0.0.1:1080',
         '--proxy-type=socks5',
     ]
-    try:
-        # Get web driver
-        driver = webdriver.Chrome(executable_path=os.path.join("browser", "chromedriver"), service_args=service_args)
-        # driver = webdriver.PhantomJS(executable_path=os.path.join("browser", "phantomjs.exe"), service_args=service_args)
-        driver.get(url)
-
-        # Set language
-        # wait = WebDriverWait(driver=driver, timeout=5)
-        # wait.until(method=visibility_of_element_located((By.CLASS_NAME, "Select-control")))
-        # lang_dropdown = driver.find_element_by_class_name("Select-control")
-        # print(lang_dropdown)
-        # actions = ActionChains(driver)
-        # actions.move_to_element(lang_dropdown).click()
-        # actions.perform()
-        # wait.until(method=visibility_of_element_located((By.CLASS_NAME, "Select-menu-outer")))
-        # actions.reset_actions()
-        # actions.move_to_element_with_offset(lang_dropdown, 5, 100).click().perform()
-        # driver.refresh()
-        WebDriverWait(driver=driver, timeout=5).until(method=visibility_of_element_located((By.CLASS_NAME, "question-description")))
-        description = driver.find_element_by_class_name("question-description").text
-        print("Description:%s..." % description[0:10])
-
-        code = driver.find_element_by_name("lc-codemirror").get_attribute("value")
-        print("Code of %s:\r\n%s" % (lang, code))
-        driver.quit()
-    except:
-        traceback.print_exc()
-        exit(0)
+    description = ""
+    # try:
+    #     # Get web driver
+    #     driver = webdriver.Chrome(executable_path=os.path.join("browser", "chromedriver"), service_args=service_args)
+    #     # driver = webdriver.PhantomJS(executable_path=os.path.join("browser", "phantomjs.exe"), service_args=service_args)
+    #     driver.get(url)
+    #
+    #     # Set language
+    #     # wait = WebDriverWait(driver=driver, timeout=5)
+    #     # wait.until(method=visibility_of_element_located((By.CLASS_NAME, "Select-control")))
+    #     # lang_dropdown = driver.find_element_by_class_name("Select-control")
+    #     # print(lang_dropdown)
+    #     # actions = ActionChains(driver)
+    #     # actions.move_to_element(lang_dropdown).click()
+    #     # actions.perform()
+    #     # wait.until(method=visibility_of_element_located((By.CLASS_NAME, "Select-menu-outer")))
+    #     # actions.reset_actions()
+    #     # actions.move_to_element_with_offset(lang_dropdown, 5, 100).click().perform()
+    #     # driver.refresh()
+    #     WebDriverWait(driver=driver, timeout=5).until(method=visibility_of_element_located((By.CLASS_NAME, "question-description")))
+    #     description = driver.find_element_by_class_name("question-description").text
+    #     print("Description:%s..." % description[0:10])
+    #
+    #     code = driver.find_element_by_name("lc-codemirror").get_attribute("value")
+    #     print("Code of %s:\r\n%s" % (lang, code))
+    #     driver.quit()
+    # except:
+    #     traceback.print_exc()
+    #     exit(0)
 
 
     if lang == "java":
