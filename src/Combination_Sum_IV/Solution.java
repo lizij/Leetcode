@@ -9,8 +9,23 @@ import java.util.List;
 public class Solution {
     public int combinationSum4(int[] nums, int target) {
         if (nums == null || nums.length == 0) return 0;
-        HashMap<Integer, Integer> map = new HashMap<>();
-        return generate(target, nums, map);
+//        HashMap<Integer, Integer> map = new HashMap<>();
+//        return generate(target, nums, map);
+        /**
+         * DP solution
+         * From bottom to up, calculate the possible result for every number in [0, target]
+         * 5ms
+         */
+        int[] dp = new int[target + 1];
+        dp[0] = 1;
+        for (int curTarget = 1; curTarget < dp.length; curTarget++) {
+            for (int i = 0; i < nums.length; i++) {
+                if (curTarget >= nums[i]) {
+                    dp[curTarget] += dp[curTarget - nums[i]];
+                }
+            }
+        }
+        return dp[target];
     }
 
     private int generate(int target, int[] nums, HashMap<Integer, Integer> map){

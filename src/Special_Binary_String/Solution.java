@@ -38,9 +38,9 @@ public class Solution {
         return String.join("", specials);
     }
 
-	public static void main(String[] args) {
-		Solution s = new Solution();
-//		System.out.println(s.makeLargestSpecial("11011000")); // "11100100"
-		System.out.println(s.makeLargestSpecial("101101011000")); // "111001010010"
-	}
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        //		System.out.println(s.makeLargestSpecial("11011000")); // "11100100"
+        System.out.println(s.makeLargestSpecial("101101011000")); // "111001010010"
+    }
 }
