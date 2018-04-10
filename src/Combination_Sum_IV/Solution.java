@@ -1,10 +1,6 @@
 package Combination_Sum_IV;
 
-import edu.princeton.cs.algs4.StdOut;
-
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class Solution {
     public int combinationSum4(int[] nums, int target) {
@@ -44,9 +40,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.combinationSum4(new int[]{1, 2, 3}, 4));
-        StdOut.println(s.combinationSum4(new int[]{9}, 3));
-        StdOut.println(s.combinationSum4(new int[]{}, 3));
-        StdOut.println(s.combinationSum4(new int[]{3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25}, 10));
+        System.out.println(s.combinationSum4(new int[]{1, 2, 3}, 4));
+        System.out.println(s.combinationSum4(new int[]{9}, 3));
+        System.out.println(s.combinationSum4(new int[]{}, 3));
+        System.out.println(s.combinationSum4(new int[]{3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25}, 10));
 	}
 }

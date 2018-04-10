@@ -1,9 +1,10 @@
 # Custom
 out/
 venv/
-ghostdriver.log
+*.log
 .vscode/
-CleanCodeHandbook_v1.0.3.pdf
+*.pdf
+Main.java
 
 # Compiled class file
 *.class
