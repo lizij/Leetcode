@@ -1,6 +1,6 @@
 package Repeated_Substring_Pattern;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean repeatedSubstringPattern(String s) {
@@ -60,8 +60,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.repeatedSubstringPattern("abab"));//true
-        StdOut.println(s.repeatedSubstringPattern("aba"));//false
-        StdOut.println(s.repeatedSubstringPattern("abcabcabcabc"));//true
+        System.out.println(s.repeatedSubstringPattern("abab"));//true
+        System.out.println(s.repeatedSubstringPattern("aba"));//false
+        System.out.println(s.repeatedSubstringPattern("abcabcabcabc"));//true
 	}
 }

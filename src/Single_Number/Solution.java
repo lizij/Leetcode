@@ -1,6 +1,6 @@
 package Single_Number;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 
@@ -17,6 +17,6 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        StdOut.println(s.singleNumber(new int[]{1, 1, 2, 2, 3, 4, 4}));
+        System.out.println(s.singleNumber(new int[]{1, 1, 2, 2, 3, 4, 4}));
     }
 }

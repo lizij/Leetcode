@@ -2,7 +2,7 @@ package Remove_Duplicates_from_Sorted_List;
 
 import Others.ListNode;
 import Others.NodeList;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public ListNode deleteDuplicates(ListNode head) {
@@ -17,7 +17,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.deleteDuplicates(new NodeList(new int[]{1, 1, 2}).head));
-        StdOut.println(s.deleteDuplicates(new NodeList(new int[]{1, 1, 2, 3, 3}).head));
+        System.out.println(s.deleteDuplicates(new NodeList(new int[]{1, 1, 2}).head));
+        System.out.println(s.deleteDuplicates(new NodeList(new int[]{1, 1, 2, 3, 3}).head));
 	}
 }

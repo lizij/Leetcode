@@ -1,6 +1,6 @@
 package Beautiful_Arrangement;
 
-import edu.princeton.cs.algs4.StdOut;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -38,6 +38,6 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        StdOut.println(s.countArrangement(3));
+        System.out.println(s.countArrangement(3));
     }
 }

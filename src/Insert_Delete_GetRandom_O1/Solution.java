@@ -1,6 +1,6 @@
 package Insert_Delete_GetRandom_O1;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,12 +48,12 @@ public class Solution {
      */
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.randomizedSet.insert(1));//true
-        StdOut.println(s.randomizedSet.remove(2));//false
-        StdOut.println(s.randomizedSet.insert(2));//true
-        StdOut.println(s.randomizedSet.getRandom());//1 or 2
-        StdOut.println(s.randomizedSet.remove(1));//true
-        StdOut.println(s.randomizedSet.insert(2));//false
-        StdOut.println(s.randomizedSet.getRandom());//2
+        System.out.println(s.randomizedSet.insert(1));//true
+        System.out.println(s.randomizedSet.remove(2));//false
+        System.out.println(s.randomizedSet.insert(2));//true
+        System.out.println(s.randomizedSet.getRandom());//1 or 2
+        System.out.println(s.randomizedSet.remove(1));//true
+        System.out.println(s.randomizedSet.insert(2));//false
+        System.out.println(s.randomizedSet.getRandom());//2
 	}
 }

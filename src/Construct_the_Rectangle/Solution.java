@@ -1,6 +1,6 @@
 package Construct_the_Rectangle;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int[] constructRectangle(int area) {
@@ -12,6 +12,6 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
 		int[] output1 = s.constructRectangle(6);
-        StdOut.println(output1[0] + "," + output1[1]);
+        System.out.println(output1[0] + "," + output1[1]);
 	}
 }

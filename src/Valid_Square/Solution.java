@@ -1,6 +1,6 @@
 package Valid_Square;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -47,10 +47,10 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.validSquare(new int[]{0,0}, new int[]{0, 1}, new int[]{1, 0}, new int[]{1, 1}));
-//        StdOut.println(s.validSquare(new int[]{0,1}, new int[]{0, -1}, new int[]{1, 0}, new int[]{-1, 0}));
-//        StdOut.println(s.isPerpendicular(new int[]{0,1}, new int[]{0, -1}, new int[]{1, 0}, new int[]{-1, 0}));
-//        StdOut.println(s.validSquare(new int[]{-658,-2922}, new int[]{-965, -4209}, new int[]{-2252, -3902}, new int[]{-1945, -2615}));
-        StdOut.println(s.validSquare(new int[]{0,0}, new int[]{5,0}, new int[]{5,4}, new int[]{0,4}));
+//        System.out.println(s.validSquare(new int[]{0,0}, new int[]{0, 1}, new int[]{1, 0}, new int[]{1, 1}));
+//        System.out.println(s.validSquare(new int[]{0,1}, new int[]{0, -1}, new int[]{1, 0}, new int[]{-1, 0}));
+//        System.out.println(s.isPerpendicular(new int[]{0,1}, new int[]{0, -1}, new int[]{1, 0}, new int[]{-1, 0}));
+//        System.out.println(s.validSquare(new int[]{-658,-2922}, new int[]{-965, -4209}, new int[]{-2252, -3902}, new int[]{-1945, -2615}));
+        System.out.println(s.validSquare(new int[]{0,0}, new int[]{5,0}, new int[]{5,4}, new int[]{0,4}));
 	}
 }

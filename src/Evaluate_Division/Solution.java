@@ -1,6 +1,6 @@
 package Evaluate_Division;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -76,8 +76,8 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
 //		double[] output1 = s.calcEquation(new String[][]{{"a","b"},{"b","c"}}, new double[]{2.0, 3.0}, new String[][]{ {"a","c"},{"b","a"},{"a","e"},{"a","a"},{"x","x"}});
-//		for (double d: output1) StdOut.print(d + " ");
+//		for (double d: output1) System.out.print(d + " ");
 		double[] output2 = s.calcEquation(new String[][]{{"a","b"},{"e","f"},{"b","e"}}, new double[]{3.4,1.4,2.3}, new String[][]{{"b","a"},{"a","f"},{"f","f"},{"e","e"},{"c","c"},{"a","c"},{"f","e"}});
-		for (double d: output2) StdOut.print(d + " ");
+		for (double d: output2) System.out.print(d + " ");
 	}
 }

@@ -1,6 +1,6 @@
 package _2_Keys_Keyboard;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int minSteps(int n) {
@@ -18,9 +18,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.minSteps(3));
-//        StdOut.println(s.minSteps(5));
-//        StdOut.println(s.minSteps(6));
-        StdOut.println(s.minSteps(9));
+//        System.out.println(s.minSteps(3));
+//        System.out.println(s.minSteps(5));
+//        System.out.println(s.minSteps(6));
+        System.out.println(s.minSteps(9));
 	}
 }

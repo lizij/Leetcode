@@ -1,6 +1,6 @@
 package Queue_Reconstruction_by_Height;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -33,9 +33,9 @@ public class Solution {
 //        int[][] output = input;
         for (int i = 0; i < output.length; i++) {
             for (int j = 0; j < output[i].length; j++) {
-                StdOut.print(output[i][j] + " ");
+                System.out.print(output[i][j] + " ");
             }
-            StdOut.println();
+            System.out.println();
         }
     }
 }

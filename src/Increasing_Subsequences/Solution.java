@@ -1,6 +1,6 @@
 package Increasing_Subsequences;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.*;
 public class Solution {
@@ -29,6 +29,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.findSubsequences(new int[]{4, 6, 7, 7}));//[[4, 6], [4, 7], [4, 6, 7], [4, 6, 7, 7], [6, 7], [6, 7, 7], [7, 7], [4, 7, 7]]
+        System.out.println(s.findSubsequences(new int[]{4, 6, 7, 7}));//[[4, 6], [4, 7], [4, 6, 7], [4, 6, 7, 7], [6, 7], [6, 7, 7], [7, 7], [4, 7, 7]]
 	}
 }

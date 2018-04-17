@@ -1,6 +1,6 @@
 package Set_Mismatch;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -22,6 +22,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.findErrorNums(new int[]{3, 2, 3, 4, 6, 5}));
+        System.out.println(s.findErrorNums(new int[]{3, 2, 3, 4, 6, 5}));
 	}
 }

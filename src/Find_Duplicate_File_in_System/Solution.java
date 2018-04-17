@@ -1,6 +1,6 @@
 package Find_Duplicate_File_in_System;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -37,9 +37,9 @@ public class Solution {
         Solution s = new Solution();
         for (List<String> list: s.findDuplicate(new String[]{"root/a 1.txt(abcd) 2.txt(efgh)", "root/c 3.txt(abcd)", "root/c/d 4.txt(efgh)", "root 4.txt(efgh)"})){
             for (String str: list){
-                StdOut.print(str + " ");
+                System.out.print(str + " ");
             }
-            StdOut.println();
+            System.out.println();
         }
     }
 }

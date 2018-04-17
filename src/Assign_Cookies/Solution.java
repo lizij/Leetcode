@@ -1,6 +1,6 @@
 package Assign_Cookies;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 
@@ -19,7 +19,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.findContentChildren(new int[]{1, 2, 3}, new int[]{1, 1}));
-        StdOut.println(s.findContentChildren(new int[]{1, 2}, new int[]{1, 2, 3}));
+        System.out.println(s.findContentChildren(new int[]{1, 2, 3}, new int[]{1, 1}));
+        System.out.println(s.findContentChildren(new int[]{1, 2}, new int[]{1, 2, 3}));
 	}
 }

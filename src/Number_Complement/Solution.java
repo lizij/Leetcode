@@ -1,6 +1,6 @@
 package Number_Complement;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int findComplement(int num) {
@@ -23,9 +23,9 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        StdOut.println(s.findComplement(5));
-        StdOut.println(s.findComplement(1));
-        StdOut.println(s.findComplement(2));
-        StdOut.println(s.findComplement(2147483647));
+        System.out.println(s.findComplement(5));
+        System.out.println(s.findComplement(1));
+        System.out.println(s.findComplement(2));
+        System.out.println(s.findComplement(2147483647));
     }
 }

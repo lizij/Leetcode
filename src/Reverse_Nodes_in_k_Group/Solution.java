@@ -2,7 +2,7 @@ package Reverse_Nodes_in_k_Group;
 
 import Others.ListNode;
 import Others.NodeList;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +30,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.reverseKGroup(new NodeList(new int[]{1,2,3,4,5}).head, 2));//2->1->4->3->5
-        StdOut.println(s.reverseKGroup(new NodeList(new int[]{1,2,3,4,5}).head, 3));//3->2->1->4->5
+        System.out.println(s.reverseKGroup(new NodeList(new int[]{1,2,3,4,5}).head, 2));//2->1->4->3->5
+        System.out.println(s.reverseKGroup(new NodeList(new int[]{1,2,3,4,5}).head, 3));//3->2->1->4->5
 	}
 }

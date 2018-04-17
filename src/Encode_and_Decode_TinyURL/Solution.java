@@ -1,6 +1,6 @@
 package Encode_and_Decode_TinyURL;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 
@@ -34,7 +34,7 @@ public class Solution {
     public static void main(String[] args) {
         Solution s = new Solution();
         String tinyUrl = s.encode("https://leetcode.com/problems/design-tinyurl");
-        StdOut.println(tinyUrl);
-        StdOut.println(s.decode(tinyUrl));
+        System.out.println(tinyUrl);
+        System.out.println(s.decode(tinyUrl));
     }
 }

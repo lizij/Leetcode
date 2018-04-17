@@ -1,6 +1,6 @@
 package Single_Element_in_a_Sorted_Array;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int singleNonDuplicate(int[] nums) {
@@ -16,7 +16,7 @@ public class Solution {
         Solution s = new Solution();
         int[] input1 = {1,1,2,3,3,4,4,8,8};
         int[] input2 = {3,3,7,7,10,11,11};
-        StdOut.println(s.singleNonDuplicate(input1));
-        StdOut.println(s.singleNonDuplicate(input2));
+        System.out.println(s.singleNonDuplicate(input1));
+        System.out.println(s.singleNonDuplicate(input2));
     }
 }

@@ -2,7 +2,7 @@ package Binary_Tree_Preorder_Traversal;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,7 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
         for (int i: s.preorderTraversal(new Tree(new Object[]{4, 2, 6, 3, 1, 5}).root)){
-            StdOut.print(i + " ");
+            System.out.print(i + " ");
         }
 	}
 }

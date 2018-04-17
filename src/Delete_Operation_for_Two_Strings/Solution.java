@@ -1,6 +1,6 @@
 package Delete_Operation_for_Two_Strings;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int minDistance(String word1, String word2) {
@@ -20,7 +20,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.minDistance("sea", "eat"));
-        StdOut.println(s.minDistance("sea", "ate"));
+        System.out.println(s.minDistance("sea", "eat"));
+        System.out.println(s.minDistance("sea", "ate"));
 	}
 }

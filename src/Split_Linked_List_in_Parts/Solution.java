@@ -2,7 +2,7 @@ package Split_Linked_List_in_Parts;
 
 import Others.ListNode;
 import Others.NodeList;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public ListNode[] splitListToParts(ListNode root, int k) {
@@ -31,11 +31,11 @@ public class Solution {
     }
 
     static void printListNodes(ListNode[] listNode) {
-        StdOut.print("[");
+        System.out.print("[");
         for (ListNode node: listNode) {
-            StdOut.print("[" + node + "]");
+            System.out.print("[" + node + "]");
         }
-        StdOut.println("]");
+        System.out.println("]");
     }
 
 	public static void main(String[] args) {

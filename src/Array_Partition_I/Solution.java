@@ -1,6 +1,6 @@
 package Array_Partition_I;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
 
@@ -46,6 +46,6 @@ public class Solution {
     public static void main(String[] args) {
         int[] input = {1, 4, 3, 2};
         Solution s = new Solution();
-        StdOut.println(s.arrayPairSum(input));
+        System.out.println(s.arrayPairSum(input));
     }
 }

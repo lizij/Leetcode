@@ -1,6 +1,6 @@
 package Relative_Ranks;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.List;
@@ -24,6 +24,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		for (String str: s.findRelativeRanks(new int[]{6, 1, 3, 2, 5})) StdOut.print(str + " ");
+		for (String str: s.findRelativeRanks(new int[]{6, 1, 3, 2, 5})) System.out.print(str + " ");
 	}
 }

@@ -1,6 +1,6 @@
 package Find_All_Duplicates_in_an_Array;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -20,6 +20,6 @@ public class Solution {
     public static void main(String[] args) {
         Solution s = new Solution();
         int[] input = {4,3,2,7,8,2,3,1};
-        for (int i: s.findDuplicates(input)) StdOut.print(i + " ");
+        for (int i: s.findDuplicates(input)) System.out.print(i + " ");
     }
 }

@@ -1,6 +1,6 @@
 package Intersection_of_Two_Arrays_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -26,7 +26,7 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
         for (int i :s.intersect(new int[]{1, 2, 2, 1}, new int[]{2, 2})) {
-            StdOut.print(i + " ");
+            System.out.print(i + " ");
         }
     }
 }

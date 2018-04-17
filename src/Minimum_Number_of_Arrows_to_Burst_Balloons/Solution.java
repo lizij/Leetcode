@@ -1,6 +1,6 @@
 package Minimum_Number_of_Arrows_to_Burst_Balloons;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -22,8 +22,8 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
 		int[][] input1 = {{10, 16}, {2, 8}, {1, 6}, {7, 12}};
-        StdOut.println(s.findMinArrowShots(input1));
+        System.out.println(s.findMinArrowShots(input1));
         int[][] input2 = {{3,9},{7,12},{3,8},{6,8},{9,10},{2,9},{0,9},{3,9},{0,6},{2,8}};
-        StdOut.println(s.findMinArrowShots(input2));
+        System.out.println(s.findMinArrowShots(input2));
 	}
 }

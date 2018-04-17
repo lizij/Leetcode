@@ -1,6 +1,6 @@
 package House_Robber_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int rob(int[] nums) {
@@ -20,8 +20,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.rob(new int[]{1, 1, 1}));
-//        StdOut.println(s.rob(new int[]{0}));
-        StdOut.println(s.rob(new int[]{2, 1}));
+//        System.out.println(s.rob(new int[]{1, 1, 1}));
+//        System.out.println(s.rob(new int[]{0}));
+        System.out.println(s.rob(new int[]{2, 1}));
 	}
 }

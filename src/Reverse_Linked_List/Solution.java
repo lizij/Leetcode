@@ -2,7 +2,7 @@ package Reverse_Linked_List;
 
 import Others.ListNode;
 import Others.NodeList;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Stack;
 
@@ -31,7 +31,7 @@ public class Solution {
         NodeList nodeList1 = new NodeList(new int[]{1, 2, 3, 4});
         ListNode output1 = s.reverseList(nodeList1.head);
         while (output1 != null){
-            StdOut.print(output1.val + "->");
+            System.out.print(output1.val + "->");
             output1 = output1.next;
         }
 	}

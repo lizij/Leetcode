@@ -1,6 +1,6 @@
 package Power_of_Two;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean isPowerOfTwo(int n) {
@@ -9,6 +9,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.isPowerOfTwo(1024));
+        System.out.println(s.isPowerOfTwo(1024));
 	}
 }

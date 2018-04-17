@@ -2,7 +2,7 @@ package Subtree_of_Another_Tree;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean isSubtree(TreeNode s, TreeNode t) {
@@ -21,7 +21,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.isSubtree(new Tree(new Object[]{3, 4, 5, 1, 2}).root, new Tree(new Object[]{4, 1, 2}).root));
-        StdOut.println(s.isSubtree(new Tree(new Object[]{3, 4, 5, 1, 2, null, null, null, null, 0}).root, new Tree(new Object[]{4, 1, 2}).root));
+        System.out.println(s.isSubtree(new Tree(new Object[]{3, 4, 5, 1, 2}).root, new Tree(new Object[]{4, 1, 2}).root));
+        System.out.println(s.isSubtree(new Tree(new Object[]{3, 4, 5, 1, 2, null, null, null, null, 0}).root, new Tree(new Object[]{4, 1, 2}).root));
 	}
 }

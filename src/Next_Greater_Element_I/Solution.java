@@ -1,5 +1,5 @@
 package Next_Greater_Element_I;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
@@ -20,8 +20,8 @@ public class Solution {
         Solution s = new Solution();
         int[][] input1 = {{4, 1, 2}, {1, 3, 4, 2}};
         int[][] input2 = {{2, 4}, {1, 2, 3, 4}};
-        for (int i: s.nextGreaterElement(input1[0], input1[1])) StdOut.print(i + " ");
-        StdOut.println();
-        for (int i: s.nextGreaterElement(input2[0], input2[1])) StdOut.print(i + " ");
+        for (int i: s.nextGreaterElement(input1[0], input1[1])) System.out.print(i + " ");
+        System.out.println();
+        for (int i: s.nextGreaterElement(input2[0], input2[1])) System.out.print(i + " ");
     }
 }

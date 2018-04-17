@@ -2,7 +2,7 @@ package Average_of_Levels_in_Binary_Tree;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -45,7 +45,7 @@ public class Solution {
         Tree t = new Tree(input);
         List<Double> list = s.averageOfLevels(t.root);
         for (double d: list){
-            StdOut.print(d + " ");
+            System.out.print(d + " ");
         }
     }
 }

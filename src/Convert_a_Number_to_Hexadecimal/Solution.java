@@ -1,6 +1,6 @@
 package Convert_a_Number_to_Hexadecimal;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public String toHex(int num) {
@@ -16,7 +16,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.toHex(26));
-        StdOut.println(s.toHex(-1));
+        System.out.println(s.toHex(26));
+        System.out.println(s.toHex(-1));
 	}
 }

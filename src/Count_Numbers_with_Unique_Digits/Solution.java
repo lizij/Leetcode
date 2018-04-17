@@ -1,5 +1,5 @@
 package Count_Numbers_with_Unique_Digits;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     boolean[] marked;
@@ -35,7 +35,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.countNumbersWithUniqueDigits(2));
-//        StdOut.println(s.countNumbersWithUniqueDigits(3));
+        System.out.println(s.countNumbersWithUniqueDigits(2));
+//        System.out.println(s.countNumbersWithUniqueDigits(3));
 	}
 }

@@ -2,7 +2,7 @@ package Two_Sum_IV_Input_is_a_BST;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean findTarget(TreeNode root, int k) {
@@ -23,9 +23,9 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        StdOut.println(s.findTarget(new Tree(new Object[]{5, 3, 6, 2, 4, null, 7}).root, 9));
-        StdOut.println(s.findTarget(new Tree(new Object[]{5, 3, 6, 2, 4, null, 7}).root, 28));
-        StdOut.println(s.findTarget(new Tree(new Object[]{1}).root, 2));
-        StdOut.println(s.findTarget(new Tree(new Object[]{2, 0, 3, -4, 1}).root, -1));
+        System.out.println(s.findTarget(new Tree(new Object[]{5, 3, 6, 2, 4, null, 7}).root, 9));
+        System.out.println(s.findTarget(new Tree(new Object[]{5, 3, 6, 2, 4, null, 7}).root, 28));
+        System.out.println(s.findTarget(new Tree(new Object[]{1}).root, 2));
+        System.out.println(s.findTarget(new Tree(new Object[]{2, 0, 3, -4, 1}).root, -1));
     }
 }

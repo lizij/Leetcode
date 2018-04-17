@@ -1,6 +1,6 @@
 package First_Unique_Character_in_a_String;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 
@@ -22,9 +22,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.firstUniqChar("leetcode"));
-        StdOut.println(s.firstUniqChar("loveleetcode"));
-        StdOut.println(s.firstUniqChar(""));
-        StdOut.println(s.firstUniqChar("dddccdbba"));
+        System.out.println(s.firstUniqChar("leetcode"));
+        System.out.println(s.firstUniqChar("loveleetcode"));
+        System.out.println(s.firstUniqChar(""));
+        System.out.println(s.firstUniqChar("dddccdbba"));
 	}
 }

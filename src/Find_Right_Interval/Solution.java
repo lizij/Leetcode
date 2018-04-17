@@ -1,7 +1,7 @@
 package Find_Right_Interval;
 
 import Others.Interval;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.*;
 
@@ -29,10 +29,10 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
         int[] output1 = s.findRightInterval(new Interval[]{new Interval(1, 2)});
-        for (int i: output1) StdOut.print(i + " ");StdOut.println();
+        for (int i: output1) System.out.print(i + " ");System.out.println();
         int[] output2 = s.findRightInterval(new Interval[]{new Interval(3, 4), new Interval(2, 3), new Interval(1, 2)});
-        for (int i: output2) StdOut.print(i + " ");StdOut.println();
+        for (int i: output2) System.out.print(i + " ");System.out.println();
         int[] output3 = s.findRightInterval(new Interval[]{new Interval(1, 4), new Interval(2, 3), new Interval(3, 4)});
-        for (int i: output3) StdOut.print(i + " ");StdOut.println();
+        for (int i: output3) System.out.print(i + " ");System.out.println();
 	}
 }

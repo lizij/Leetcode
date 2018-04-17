@@ -2,7 +2,7 @@ package Print_Binary_Tree;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,13 +37,13 @@ public class Solution {
     public static void main(String[] args) {
         Solution s = new Solution();
         for (List<String> stringList: s.printTree(new Tree(new Object[]{1, 2}).root)){
-            for (String string: stringList) StdOut.print(string + " ");
-            StdOut.println();
+            for (String string: stringList) System.out.print(string + " ");
+            System.out.println();
         }
 
         for (List<String> stringList: s.printTree(new Tree(new Object[]{1, 2, 3, null, 4}).root)){
-            for (String string: stringList) StdOut.print(string + " ");
-            StdOut.println();
+            for (String string: stringList) System.out.print(string + " ");
+            System.out.println();
         }
     }
 }

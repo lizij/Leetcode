@@ -1,6 +1,6 @@
 package Power_of_Four;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean isPowerOfFour(int num) {
@@ -9,8 +9,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		StdOut.println(s.isPowerOfFour(16));
-		StdOut.println(s.isPowerOfFour(5));
-		StdOut.println(s.isPowerOfFour(-128));
+		System.out.println(s.isPowerOfFour(16));
+		System.out.println(s.isPowerOfFour(5));
+		System.out.println(s.isPowerOfFour(-128));
 	}
 }

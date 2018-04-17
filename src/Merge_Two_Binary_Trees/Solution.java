@@ -2,7 +2,7 @@ package Merge_Two_Binary_Trees;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
@@ -25,6 +25,6 @@ public class Solution {
         Tree bt = new Tree(b);
 
         Solution s = new Solution();
-        StdOut.println(s.mergeTrees(at.root, bt.root));
+        System.out.println(s.mergeTrees(at.root, bt.root));
     }
 }

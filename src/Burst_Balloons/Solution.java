@@ -1,6 +1,6 @@
 package Burst_Balloons;
 
-import edu.princeton.cs.algs4.StdOut;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -63,7 +63,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.maxCoins(new int[]{3, 1, 5, 8}));
-//        StdOut.println(s.maxCoins(new int[]{2, 3, 7, 9, 1, 8, 2}));
+        System.out.println(s.maxCoins(new int[]{3, 1, 5, 8}));
+//        System.out.println(s.maxCoins(new int[]{2, 3, 7, 9, 1, 8, 2}));
 	}
 }

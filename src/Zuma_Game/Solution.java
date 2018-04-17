@@ -1,6 +1,6 @@
 package Zuma_Game;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int findMinStep(String board, String hand) {
@@ -48,11 +48,11 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.findMinStep("WRRBBW", "RB"));//-1
-        StdOut.println(s.findMinStep("WWRRBBWW", "WRBRW"));//2
-        StdOut.println(s.findMinStep("G", "GGGGG"));//2
-        StdOut.println(s.findMinStep("RBYYBBRRB", "YRBGB"));//3
-        StdOut.println(s.findMinStep("RRWWRRW", "WWRRR"));//2
-        StdOut.println(s.findMinStep("WRYYRWWRRWW", "WYBR"));//2
+        System.out.println(s.findMinStep("WRRBBW", "RB"));//-1
+        System.out.println(s.findMinStep("WWRRBBWW", "WRBRW"));//2
+        System.out.println(s.findMinStep("G", "GGGGG"));//2
+        System.out.println(s.findMinStep("RBYYBBRRB", "YRBGB"));//3
+        System.out.println(s.findMinStep("RRWWRRW", "WWRRR"));//2
+        System.out.println(s.findMinStep("WRYYRWWRRWW", "WYBR"));//2
 	}
 }

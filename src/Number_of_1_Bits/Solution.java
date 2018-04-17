@@ -1,6 +1,6 @@
 package Number_of_1_Bits;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     // you need to treat n as an unsigned value
@@ -23,6 +23,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.hammingWeight(11));
+        System.out.println(s.hammingWeight(11));
 	}
 }

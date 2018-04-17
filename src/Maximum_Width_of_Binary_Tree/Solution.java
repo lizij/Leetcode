@@ -2,7 +2,7 @@ package Maximum_Width_of_Binary_Tree;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -37,9 +37,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.widthOfBinaryTree(new Tree(new Object[]{1,3,2,5,3,null,9}).root));//4
-        StdOut.println(s.widthOfBinaryTree(new Tree(new Object[]{1,3,null,5,3}).root));//2
-        StdOut.println(s.widthOfBinaryTree(new Tree(new Object[]{1,3,2,5}).root));//2
-        StdOut.println(s.widthOfBinaryTree(new Tree(new Object[]{1,3,2,5,null,null,9,6,null,null,null,null,null,null,7}).root));//8
+        System.out.println(s.widthOfBinaryTree(new Tree(new Object[]{1,3,2,5,3,null,9}).root));//4
+        System.out.println(s.widthOfBinaryTree(new Tree(new Object[]{1,3,null,5,3}).root));//2
+        System.out.println(s.widthOfBinaryTree(new Tree(new Object[]{1,3,2,5}).root));//2
+        System.out.println(s.widthOfBinaryTree(new Tree(new Object[]{1,3,2,5,null,null,9,6,null,null,null,null,null,null,7}).root));//8
 	}
 }

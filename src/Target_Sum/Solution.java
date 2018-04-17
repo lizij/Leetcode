@@ -1,6 +1,6 @@
 package Target_Sum;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -57,9 +57,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.findTargetSumWays(new int[]{1, 1, 1, 1, 1}, 3));
-//        StdOut.println(s.findTargetSumWays(new int[]{1}, 3));
-//        StdOut.println(s.findTargetSumWays(new int[]{3}, 3));
-        StdOut.println(s.findTargetSumWays(new int[]{0, 0, 0, 0, 0, 0, 0, 0, 1}, 1));
+//        System.out.println(s.findTargetSumWays(new int[]{1, 1, 1, 1, 1}, 3));
+//        System.out.println(s.findTargetSumWays(new int[]{1}, 3));
+//        System.out.println(s.findTargetSumWays(new int[]{3}, 3));
+        System.out.println(s.findTargetSumWays(new int[]{0, 0, 0, 0, 0, 0, 0, 0, 1}, 1));
 	}
 }

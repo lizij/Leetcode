@@ -1,6 +1,6 @@
 package N_Queens;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -57,10 +57,10 @@ public class Solution {
 		Solution s = new Solution();
 		List<List<String>> output1 = s.solveNQueens(4);
         for (int i = 0; i < output1.size(); i++) {
-            StdOut.println("==============");
+            System.out.println("==============");
             List<String> list = output1.get(i);
-            for (int j = 0; j < list.size(); j++) StdOut.println(list.get(j));
-            StdOut.println("==============");
+            for (int j = 0; j < list.size(); j++) System.out.println(list.get(j));
+            System.out.println("==============");
         }
     }
 }

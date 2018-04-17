@@ -1,6 +1,6 @@
 package Longest_Uncommon_Subsequence_I;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int findLUSlength(String a, String b) {
@@ -22,9 +22,9 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-//        StdOut.println(s.findLUSlength("aba", "cdc"));
+//        System.out.println(s.findLUSlength("aba", "cdc"));
         String x = "aefawfawfawfaw", y = "aefawfeawfwafwaef";
-        StdOut.println(s.longestCommonSubsequence(x.toCharArray(), x.length() - 1, y.toCharArray(), y.length() - 1));
+        System.out.println(s.longestCommonSubsequence(x.toCharArray(), x.length() - 1, y.toCharArray(), y.length() - 1));
     }
 
 }

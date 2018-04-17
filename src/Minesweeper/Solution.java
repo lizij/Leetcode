@@ -1,6 +1,6 @@
 package Minesweeper;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     private int N;
@@ -71,12 +71,12 @@ public class Solution {
         char[][] output1 = s.updateBoard(board1, new int[]{3, 0});
         for (int i = 0; i < output1.length; i++) {
             for (int j = 0; j < output1[0].length; j++) {
-                StdOut.print(output1[i][j] + " ");
+                System.out.print(output1[i][j] + " ");
             }
-            StdOut.println();
+            System.out.println();
         }
-        StdOut.println();
-        StdOut.println(s.countMines(1, 1));
+        System.out.println();
+        System.out.println(s.countMines(1, 1));
 
         char[][] board2 = {
 		        {'B', '1', 'E', '1', 'B'},
@@ -87,10 +87,10 @@ public class Solution {
         char[][] output2 = s.updateBoard(board2, new int[]{1, 2});
         for (int i = 0; i < output2.length; i++) {
             for (int j = 0; j < output2[0].length; j++) {
-                StdOut.print(output2[i][j] + " ");
+                System.out.print(output2[i][j] + " ");
             }
-            StdOut.println();
+            System.out.println();
         }
-        StdOut.println();
+        System.out.println();
 	}
 }

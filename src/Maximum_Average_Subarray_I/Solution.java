@@ -1,6 +1,6 @@
 package Maximum_Average_Subarray_I;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public double findMaxAverage(int[] nums, int k) {
@@ -19,6 +19,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.findMaxAverage(new int[]{1,12,-5,-6,50,3}, 4));
+        System.out.println(s.findMaxAverage(new int[]{1,12,-5,-6,50,3}, 4));
 	}
 }

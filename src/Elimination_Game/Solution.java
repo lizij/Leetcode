@@ -1,6 +1,6 @@
 package Elimination_Game;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,7 +43,7 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
         for (int i = 0; i < 50; i++) {
-            StdOut.println(i + ":" + s.lastRemaining(i));
+            System.out.println(i + ":" + s.lastRemaining(i));
         }
 	}
 }

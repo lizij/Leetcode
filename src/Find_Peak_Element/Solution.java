@@ -1,6 +1,6 @@
 package Find_Peak_Element;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.List;
@@ -34,6 +34,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.findPeakElement(new int[]{1,2,3,1}));
+        System.out.println(s.findPeakElement(new int[]{1,2,3,1}));
 	}
 }

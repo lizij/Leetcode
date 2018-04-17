@@ -1,7 +1,7 @@
 package Convert_Sorted_Array_to_Binary_Search_Tree;
 
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public /**
  * Definition for a binary tree node.
@@ -28,6 +28,6 @@ class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.sortedArrayToBST(new int[]{1, 2, 3, 4, 5, 6, 7}));
+        System.out.println(s.sortedArrayToBST(new int[]{1, 2, 3, 4, 5, 6, 7}));
 	}
 }

@@ -1,6 +1,6 @@
 package Island_Perimeter;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int islandPerimeter(int[][] grid) {
@@ -27,6 +27,6 @@ public class Solution {
                 {1, 1, 1, 0},
                 {0, 1, 0, 0},
                 {1, 1, 0, 0}};
-        StdOut.println(s.islandPerimeter(input));
+        System.out.println(s.islandPerimeter(input));
     }
 }

@@ -1,6 +1,6 @@
 package Contains_Duplicate_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,6 +23,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.containsNearbyDuplicate(new int[]{-1, -1}, 1));
+        System.out.println(s.containsNearbyDuplicate(new int[]{-1, -1}, 1));
 	}
 }

@@ -2,7 +2,7 @@ package Swap_Nodes_in_Pairs;
 
 import Others.ListNode;
 import Others.NodeList;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public ListNode swapPairs(ListNode head) {
@@ -28,7 +28,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.swapPairs(new NodeList(new int[]{1,2,3,4}).head));
-//        StdOut.println(s.swapPairs(new NodeList(new int[]{1,2}).head));
+        System.out.println(s.swapPairs(new NodeList(new int[]{1,2,3,4}).head));
+//        System.out.println(s.swapPairs(new NodeList(new int[]{1,2}).head));
 	}
 }

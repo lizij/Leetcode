@@ -2,7 +2,7 @@ package Add_Two_Numbers_II;
 
 import Others.ListNode;
 import Others.NodeList;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Stack;
 
@@ -60,7 +60,7 @@ public class Solution {
         NodeList l2 = new NodeList(new int[]{5, 6, 4});
         ListNode res = s.addTwoNumbers(l1.head, l2.head);
         while (res != null){
-            StdOut.print(res.val + "->");
+            System.out.print(res.val + "->");
             res = res.next;
         }
 	}

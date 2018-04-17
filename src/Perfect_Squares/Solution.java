@@ -1,6 +1,6 @@
 package Perfect_Squares;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,8 +32,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		StdOut.println(s.numSquares(1));
-        StdOut.println(s.numSquares(12));//4+4+4 3
-        StdOut.println(s.numSquares(13));//4+9 2
+		System.out.println(s.numSquares(1));
+        System.out.println(s.numSquares(12));//4+4+4 3
+        System.out.println(s.numSquares(13));//4+9 2
 	}
 }

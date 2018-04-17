@@ -4,7 +4,7 @@ import Others.ListNode;
 import Others.NodeList;
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -59,6 +59,6 @@ class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.sortedListToBST(new NodeList(new int[]{1, 2, 3, 4, 5, 6, 7}).head));
+        System.out.println(s.sortedListToBST(new NodeList(new int[]{1, 2, 3, 4, 5, 6, 7}).head));
 	}
 }

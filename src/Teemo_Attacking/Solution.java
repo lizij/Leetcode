@@ -1,6 +1,6 @@
 package Teemo_Attacking;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int findPoisonedDuration(int[] timeSeries, int duration) {
@@ -19,7 +19,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        StdOut.println(s.findPoisonedDuration(new int[]{1, 4}, 2));
-        StdOut.println(s.findPoisonedDuration(new int[]{1, 2}, 2));
+        System.out.println(s.findPoisonedDuration(new int[]{1, 4}, 2));
+        System.out.println(s.findPoisonedDuration(new int[]{1, 2}, 2));
     }
 }

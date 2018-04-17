@@ -1,6 +1,6 @@
 package Intersection_of_Two_Arrays;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.*;
 
@@ -17,6 +17,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		for (int i: s.intersection(new int[]{1, 2, 2, 1}, new int[]{2, 2})) StdOut.print(i + " ");
+		for (int i: s.intersection(new int[]{1, 2, 2, 1}, new int[]{2, 2})) System.out.print(i + " ");
 	}
 }

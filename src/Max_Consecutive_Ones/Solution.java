@@ -1,6 +1,6 @@
 package Max_Consecutive_Ones;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
@@ -18,8 +18,8 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        StdOut.println(s.findMaxConsecutiveOnes(new int[]{1, 1, 0, 1, 1, 1}));
-        StdOut.println(s.findMaxConsecutiveOnes(new int[]{1}));
-        StdOut.println(s.findMaxConsecutiveOnes(new int[]{0}));
+        System.out.println(s.findMaxConsecutiveOnes(new int[]{1, 1, 0, 1, 1, 1}));
+        System.out.println(s.findMaxConsecutiveOnes(new int[]{1}));
+        System.out.println(s.findMaxConsecutiveOnes(new int[]{0}));
     }
 }

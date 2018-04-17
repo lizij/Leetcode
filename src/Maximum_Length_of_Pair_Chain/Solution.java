@@ -1,6 +1,6 @@
 package Maximum_Length_of_Pair_Chain;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -48,12 +48,12 @@ public class Solution {
 //                {2, 3},
 //                {3, 4}
 //		};
-//        StdOut.println(s.findLongestChain(input1));
+//        System.out.println(s.findLongestChain(input1));
 //        int[][] input2 = {
 //                {-6,9},{1,6},{8,10},{-1,4},{-6,-2},{-9,8},{-5,3},{0,3}
 //        };
-//        StdOut.println(s.findLongestChain(input2));
+//        System.out.println(s.findLongestChain(input2));
         int[][] input2 = {{7,9},{4,5},{7,9},{-7,-1},{0,10},{3,10},{3,6},{2,3}};
-        StdOut.println(s.findLongestChain(input2));
+        System.out.println(s.findLongestChain(input2));
 	}
 }

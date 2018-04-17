@@ -2,7 +2,7 @@ package Binary_Tree_Level_Order_Traversal;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -34,8 +34,8 @@ public class Solution {
 		Solution s = new Solution();
 		List<List<Integer>> output1 = s.levelOrder(new Tree(new Object[]{3, 9, 20, null, null, 15, 7}).root);
         for (List<Integer> list: output1){
-            for (int i: list) StdOut.print(i + " ");
-            StdOut.println();
+            for (int i: list) System.out.print(i + " ");
+            System.out.println();
         }
 	}
 }

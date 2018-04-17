@@ -1,6 +1,6 @@
 package Spiral_Matrix;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,8 +32,8 @@ public class Solution {
 //                {12,13,14, 5},
 //                {11,16,15, 6},
 //                {10, 9, 8, 7}});
-//        for (int i: output1) StdOut.print(i + " ");
+//        for (int i: output1) System.out.print(i + " ");
         List<Integer> output1 = s.spiralOrder(new int[][]{});
-        for (int i: output1) StdOut.print(i + " ");
+        for (int i: output1) System.out.print(i + " ");
 	}
 }

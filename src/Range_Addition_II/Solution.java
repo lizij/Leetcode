@@ -1,6 +1,6 @@
 package Range_Addition_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int maxCount(int m, int n, int[][] ops) {
@@ -15,6 +15,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.maxCount(3, 3, new int[][]{{2, 2}, {3, 3}}));
+        System.out.println(s.maxCount(3, 3, new int[][]{{2, 2}, {3, 3}}));
 	}
 }

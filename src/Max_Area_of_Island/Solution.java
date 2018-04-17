@@ -1,6 +1,6 @@
 package Max_Area_of_Island;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
 	int[][] grid;
@@ -45,7 +45,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		StdOut.println(s.maxAreaOfIsland(new int[][]{
+		System.out.println(s.maxAreaOfIsland(new int[][]{
 				{0,0,1,0,0,0,0,1,0,0,0,0,0},
 				{0,0,0,0,0,0,0,1,1,1,0,0,0},
 				{0,1,1,0,1,0,0,0,0,0,0,0,0},

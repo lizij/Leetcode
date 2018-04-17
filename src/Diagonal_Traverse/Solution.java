@@ -1,6 +1,6 @@
 package Diagonal_Traverse;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     private int M, N;
@@ -69,7 +69,7 @@ public class Solution {
 //                {9, 10, 11, 12}
 //        };
 //		for (int i: s.findDiagonalOrder(input1)){
-//            StdOut.print(i + " ");
+//            System.out.print(i + " ");
 //        }
         int[][] input2 = new int[][]{
                 {1,  2,  3},
@@ -77,7 +77,7 @@ public class Solution {
                 {9, 10, 11}
         };
         for (int i: s.findDiagonalOrder(input2)){
-            StdOut.print(i + " ");
+            System.out.print(i + " ");
         }
 	}
 }

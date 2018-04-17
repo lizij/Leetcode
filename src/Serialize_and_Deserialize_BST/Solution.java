@@ -2,7 +2,7 @@ package Serialize_and_Deserialize_BST;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.LinkedList;
 import java.util.List;
@@ -108,7 +108,7 @@ public class Solution {
     public static void main(String[] args) {
         Solution s = new Solution();
         String output = s.testSerialize(new Tree(new Object[]{4, 2, 6, 1, 3, 5, 7}).root);
-        StdOut.println(output);
-        StdOut.println(s.testDeserialize(output));
+        System.out.println(output);
+        System.out.println(s.testDeserialize(output));
     }
 }

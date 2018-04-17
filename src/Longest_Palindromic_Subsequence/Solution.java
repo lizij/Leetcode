@@ -1,6 +1,6 @@
 package Longest_Palindromic_Subsequence;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int longestPalindromeSubseq(String s) {
@@ -25,7 +25,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.longestPalindromeSubseq("bbbab"));
-        StdOut.println(s.longestPalindromeSubseq("cbbd"));
+        System.out.println(s.longestPalindromeSubseq("bbbab"));
+        System.out.println(s.longestPalindromeSubseq("cbbd"));
 	}
 }

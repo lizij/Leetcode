@@ -1,6 +1,6 @@
 package Maximum_XOR_of_Two_Numbers_in_an_Array;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashSet;
 
@@ -35,6 +35,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.findMaximumXOR(new int[]{3, 10, 5, 25, 2, 8}));
+        System.out.println(s.findMaximumXOR(new int[]{3, 10, 5, 25, 2, 8}));
 	}
 }

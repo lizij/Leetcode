@@ -2,7 +2,7 @@ package Merge_Two_Sorted_Lists;
 
 import Others.ListNode;
 import Others.NodeList;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
@@ -26,6 +26,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.mergeTwoLists(new NodeList(new int[]{1,3,5,7}).head, new NodeList(new int[]{2,4,6,8,10,12}).head));
+        System.out.println(s.mergeTwoLists(new NodeList(new int[]{1,3,5,7}).head, new NodeList(new int[]{2,4,6,8,10,12}).head));
 	}
 }

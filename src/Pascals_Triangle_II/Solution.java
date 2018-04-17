@@ -1,6 +1,6 @@
 package Pascals_Triangle_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +19,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.getRow(3));
+        System.out.println(s.getRow(3));
 	}
 }

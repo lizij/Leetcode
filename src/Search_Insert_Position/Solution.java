@@ -1,6 +1,6 @@
 package Search_Insert_Position;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int searchInsert(int[] nums, int target) {
@@ -20,9 +20,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.searchInsert(new int[]{1, 3, 5, 6}, 5));
-        StdOut.println(s.searchInsert(new int[]{1, 3, 5, 6}, 2));
-        StdOut.println(s.searchInsert(new int[]{1, 3, 5, 6}, 7));
-        StdOut.println(s.searchInsert(new int[]{1, 3, 5, 6}, 0));
+        System.out.println(s.searchInsert(new int[]{1, 3, 5, 6}, 5));
+        System.out.println(s.searchInsert(new int[]{1, 3, 5, 6}, 2));
+        System.out.println(s.searchInsert(new int[]{1, 3, 5, 6}, 7));
+        System.out.println(s.searchInsert(new int[]{1, 3, 5, 6}, 0));
 	}
 }

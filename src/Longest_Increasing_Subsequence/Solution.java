@@ -1,6 +1,6 @@
 package Longest_Increasing_Subsequence;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 
@@ -44,8 +44,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.lengthOfLIS(new int[]{10,9,2,5,3,7,101,18}));
-//        StdOut.println(s.lengthOfLIS(new int[]{-2, -1}));
-        StdOut.println(s.lengthOfLIS(new int[]{1,3,6,7,9,4,10,5,6}));
+//        System.out.println(s.lengthOfLIS(new int[]{10,9,2,5,3,7,101,18}));
+//        System.out.println(s.lengthOfLIS(new int[]{-2, -1}));
+        System.out.println(s.lengthOfLIS(new int[]{1,3,6,7,9,4,10,5,6}));
 	}
 }

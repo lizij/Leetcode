@@ -2,7 +2,7 @@ package Convert_BST_to_Greater_Tree;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -25,6 +25,6 @@ public class Solution {
     
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.convertBST(new Tree(new Object[]{4, 2, 6, 1, 3, 5, 7}).root));
+        System.out.println(s.convertBST(new Tree(new Object[]{4, 2, 6, 1, 3, 5, 7}).root));
 	}
 }

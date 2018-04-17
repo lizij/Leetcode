@@ -1,6 +1,6 @@
 package Exclusive_Time_of_Functions;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.List;
@@ -52,6 +52,6 @@ public class Solution {
 //		int[] output1 = s.exclusiveTime(2, Arrays.asList("0:start:0","1:start:2","1:end:5","0:end:6"));
 //		int[] output1 = s.exclusiveTime(1, Arrays.asList("0:start:0","0:start:2","0:end:5","0:start:6","0:end:6","0:end:7"));
 		int[] output1 = s.exclusiveTime(1, Arrays.asList("0:start:0","0:start:1","0:start:2","0:end:3","0:end:4","0:end:5"));
-        for (int i: output1) StdOut.print(i + " ");
+        for (int i: output1) System.out.print(i + " ");
 	}
 }

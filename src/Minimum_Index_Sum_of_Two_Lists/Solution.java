@@ -1,6 +1,6 @@
 package Minimum_Index_Sum_of_Two_Lists;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -32,8 +32,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        for (String str: s.findRestaurant(new String[]{"Shogun", "Tapioca Express", "Burger King", "KFC"}, new String[]{"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"})) StdOut.println(str);
-        for (String str: s.findRestaurant(new String[]{"Shogun", "Tapioca Express", "Burger King", "KFC"}, new String[]{"KFC", "Shogun", "Burger King"})) StdOut.println(str);
-        for (String str: s.findRestaurant(new String[]{"Shogun","Tapioca Express","Burger King","KFC"}, new String[]{"KNN","KFC","Burger King","Tapioca Express","Shogun"})) StdOut.println(str);
+        for (String str: s.findRestaurant(new String[]{"Shogun", "Tapioca Express", "Burger King", "KFC"}, new String[]{"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"})) System.out.println(str);
+        for (String str: s.findRestaurant(new String[]{"Shogun", "Tapioca Express", "Burger King", "KFC"}, new String[]{"KFC", "Shogun", "Burger King"})) System.out.println(str);
+        for (String str: s.findRestaurant(new String[]{"Shogun","Tapioca Express","Burger King","KFC"}, new String[]{"KNN","KFC","Burger King","Tapioca Express","Shogun"})) System.out.println(str);
 	}
 }

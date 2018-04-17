@@ -1,6 +1,6 @@
 package _4Sum;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.*;
 
@@ -63,9 +63,9 @@ public class Solution {
         List<List<Integer>> output1 = s.fourSum(new int[]{1, 0, -1, 0, -2, 2}, 0);
         for (int i = 0; i < output1.size(); i++) {
             for (int j = 0; j < output1.get(i).size(); j++) {
-                StdOut.print(output1.get(i).get(j) + " ");
+                System.out.print(output1.get(i).get(j) + " ");
             }
-            StdOut.println();
+            System.out.println();
         }
     }
 }

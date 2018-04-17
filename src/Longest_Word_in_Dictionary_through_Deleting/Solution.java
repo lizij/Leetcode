@@ -1,6 +1,6 @@
 package Longest_Word_in_Dictionary_through_Deleting;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -32,8 +32,8 @@ public class Solution {
         List<String> input1 = new ArrayList<>(Arrays.asList("ale","apple","monkey","plea"));
         List<String> input2 = new ArrayList<>(Arrays.asList("a", "b", "c"));
         List<String> input3 = new ArrayList<>(Arrays.asList("ba", "ab", "a", "b"));
-        StdOut.println(s.findLongestWord("abpcplea", input1));
-        StdOut.println(s.findLongestWord("abpcplea", input2));
-        StdOut.println(s.findLongestWord("bab", input3));
+        System.out.println(s.findLongestWord("abpcplea", input1));
+        System.out.println(s.findLongestWord("abpcplea", input2));
+        System.out.println(s.findLongestWord("bab", input3));
     }
 }

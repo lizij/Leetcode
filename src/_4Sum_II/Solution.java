@@ -1,6 +1,6 @@
 package _4Sum_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -28,6 +28,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.fourSumCount(new int[]{1, 2}, new int[]{-1, -2}, new int[]{-1, 2}, new int[]{0, 2}));
+        System.out.println(s.fourSumCount(new int[]{1, 2}, new int[]{-1, -2}, new int[]{-1, 2}, new int[]{0, 2}));
 	}
 }

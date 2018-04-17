@@ -1,7 +1,7 @@
 package Employee_Importance;
 
 import Others.Employee;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -28,21 +28,21 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		StdOut.println(s.getImportance(
+		System.out.println(s.getImportance(
 				Arrays.asList(
 						new Employee(1, 5, 2, 3),
 						new Employee(2,3),
 						new Employee(3, 3)),
 				1)
 		);
-		StdOut.println(s.getImportance(
+		System.out.println(s.getImportance(
 				Arrays.asList(
 						new Employee(1, 15, 2),
 						new Employee(2,10, 3),
 						new Employee(3, 5)),
 				1)
 		);
-		StdOut.println(s.getImportance(
+		System.out.println(s.getImportance(
 				Arrays.asList(
 						new Employee(2, 5)),
 				2)

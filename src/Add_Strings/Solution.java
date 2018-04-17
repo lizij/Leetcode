@@ -1,6 +1,6 @@
 package Add_Strings;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public String addStrings(String num1, String num2) {
@@ -27,8 +27,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.addStrings("1234", "567"));
-        StdOut.println(s.addStrings("9999", "1"));
-        StdOut.println(s.addStrings("0", "0"));
+        System.out.println(s.addStrings("1234", "567"));
+        System.out.println(s.addStrings("9999", "1"));
+        System.out.println(s.addStrings("0", "0"));
 	}
 }

@@ -1,6 +1,6 @@
 package Wiggle_Sort_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public void wiggleSort(int[] nums) {
@@ -74,8 +74,8 @@ public class Solution {
 		int[] input1 = {1,5,1,1,6,4};
 		int[] input2 = {1,3,2,2,3,1};
 		int[] input3 = {4,5,5,6};
-        s.wiggleSort(input1);for (int i: input1) StdOut.print(i + " ");StdOut.println();//1,4,1,5,1,6
-        s.wiggleSort(input2);for (int i: input2) StdOut.print(i + " ");StdOut.println();//2,3,1,3,1,2
-        s.wiggleSort(input3);for (int i: input3) StdOut.print(i + " ");StdOut.println();//5,6,4,5
+        s.wiggleSort(input1);for (int i: input1) System.out.print(i + " ");System.out.println();//1,4,1,5,1,6
+        s.wiggleSort(input2);for (int i: input2) System.out.print(i + " ");System.out.println();//2,3,1,3,1,2
+        s.wiggleSort(input3);for (int i: input3) System.out.print(i + " ");System.out.println();//5,6,4,5
 	}
 }

@@ -1,6 +1,6 @@
 package Counting_Bits;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int[] countBits(int num) {
@@ -15,7 +15,7 @@ public class Solution {
         Solution s = new Solution();
         int[] bits = s.countBits(5);
         for (int i = 0; i < bits.length; i++) {
-            StdOut.print(bits[i] + " ");
+            System.out.print(bits[i] + " ");
         }
     }
 }

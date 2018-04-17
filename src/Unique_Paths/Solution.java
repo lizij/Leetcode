@@ -1,6 +1,6 @@
 package Unique_Paths;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int uniquePaths(int m, int n) {
@@ -17,7 +17,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.uniquePaths(2, 2));//2
-        StdOut.println(s.uniquePaths(1, 10));//1
+        System.out.println(s.uniquePaths(2, 2));//2
+        System.out.println(s.uniquePaths(1, 10));//1
 	}
 }

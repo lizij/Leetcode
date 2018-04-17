@@ -1,6 +1,6 @@
 package Longest_Repeating_Character_Replacement;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int characterReplacement(String s, int k) {
@@ -21,7 +21,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.characterReplacement("ABAB", 2));
-        StdOut.println(s.characterReplacement("AABABBA", 1));
+        System.out.println(s.characterReplacement("ABAB", 2));
+        System.out.println(s.characterReplacement("AABABBA", 1));
 	}
 }

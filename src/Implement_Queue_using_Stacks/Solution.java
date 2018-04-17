@@ -1,6 +1,6 @@
 package Implement_Queue_using_Stacks;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Stack;
 
@@ -53,16 +53,16 @@ public class Solution {
  */
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		StdOut.println(s.myQueue.empty());
+		System.out.println(s.myQueue.empty());
 		s.myQueue.push(1);
 		s.myQueue.push(2);
 		s.myQueue.push(3);
 		s.myQueue.push(4);
-        StdOut.println(s.myQueue.empty());
-        StdOut.println(s.myQueue.pop());
-        StdOut.println(s.myQueue.pop());
-        StdOut.println(s.myQueue.pop());
-        StdOut.println(s.myQueue.pop());
-        StdOut.println(s.myQueue.empty());
+        System.out.println(s.myQueue.empty());
+        System.out.println(s.myQueue.pop());
+        System.out.println(s.myQueue.pop());
+        System.out.println(s.myQueue.pop());
+        System.out.println(s.myQueue.pop());
+        System.out.println(s.myQueue.empty());
 	}
 }

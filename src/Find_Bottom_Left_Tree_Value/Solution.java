@@ -2,7 +2,7 @@ package Find_Bottom_Left_Tree_Value;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 
@@ -26,6 +26,6 @@ public class Solution {
         Solution s = new Solution();
         Object[] input = {1, 2, 3, 4, null, 5, 6, null, null, null, null, 7};
         Tree tree = new Tree(input);
-        StdOut.println(s.findBottomLeftValue(tree.root));
+        System.out.println(s.findBottomLeftValue(tree.root));
     }
 }

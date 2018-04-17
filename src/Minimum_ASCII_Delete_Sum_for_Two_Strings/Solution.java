@@ -1,6 +1,6 @@
 package Minimum_ASCII_Delete_Sum_for_Two_Strings;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int minimumDeleteSum(String s1, String s2) {
@@ -34,7 +34,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		StdOut.println(s.minimumDeleteSum("sea", "eat"));//231
-		StdOut.println(s.minimumDeleteSum("delete", "leet"));//403
+		System.out.println(s.minimumDeleteSum("sea", "eat"));//231
+		System.out.println(s.minimumDeleteSum("delete", "leet"));//403
 	}
 }

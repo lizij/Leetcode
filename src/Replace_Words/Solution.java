@@ -1,6 +1,6 @@
 package Replace_Words;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,9 +21,9 @@ public class Solution {
 		Solution s = new Solution();
 //        List<String> dict1 = new ArrayList<>();
 //        dict1.addAll(Arrays.asList("cat", "bat", "rat"));
-//        StdOut.println(s.replaceWords(dict1, "the cattle was rattled by the battery"));
+//        System.out.println(s.replaceWords(dict1, "the cattle was rattled by the battery"));
         List<String> dict2 = new ArrayList<>();
         dict2.addAll(Arrays.asList("a", "aa", "aaa", "aaaa"));
-        StdOut.println(s.replaceWords(dict2,"a aa a aaaa aaa aaa aaa aaaaaa bbb baba ababa"));
+        System.out.println(s.replaceWords(dict2,"a aa a aaaa aaa aaa aaa aaaaaa bbb baba ababa"));
 	}
 }

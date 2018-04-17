@@ -2,7 +2,7 @@ package House_Robber_III;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 
@@ -57,7 +57,7 @@ class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.rob(new Tree(new Object[]{3, 2, 3, null,3, null, 1}).root));
-        StdOut.println(s.rob(new Tree(new Object[]{3, 4, 5, 1, 3, null, 1}).root));
+        System.out.println(s.rob(new Tree(new Object[]{3, 2, 3, null,3, null, 1}).root));
+        System.out.println(s.rob(new Tree(new Object[]{3, 4, 5, 1, 3, null, 1}).root));
 	}
 }

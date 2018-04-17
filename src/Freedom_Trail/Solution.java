@@ -1,6 +1,6 @@
 package Freedom_Trail;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -76,7 +76,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.findRotateSteps("godding", "gd"));//4
-        StdOut.println(s.findRotateSteps("iotfo", "fioot"));
+//        System.out.println(s.findRotateSteps("godding", "gd"));//4
+        System.out.println(s.findRotateSteps("iotfo", "fioot"));
 	}
 }

@@ -1,6 +1,6 @@
 package Add_Binary;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public String addBinary(String a, String b) {
@@ -17,6 +17,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.addBinary("11", "1"));
+        System.out.println(s.addBinary("11", "1"));
 	}
 }

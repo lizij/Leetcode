@@ -1,6 +1,6 @@
 package Is_Subsequence;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean isSubsequence(String s, String t) {
@@ -14,9 +14,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.isSubsequence("abc", "ahbgdc"));
-        StdOut.println(s.isSubsequence("axc", "ahbgdc"));
-        StdOut.println(s.isSubsequence("ace", "abcde"));
-        StdOut.println(s.isSubsequence("aec", "abcde"));
+        System.out.println(s.isSubsequence("abc", "ahbgdc"));
+        System.out.println(s.isSubsequence("axc", "ahbgdc"));
+        System.out.println(s.isSubsequence("ace", "abcde"));
+        System.out.println(s.isSubsequence("aec", "abcde"));
 	}
 }

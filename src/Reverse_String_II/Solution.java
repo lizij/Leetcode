@@ -1,6 +1,6 @@
 package Reverse_String_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public String reverseStr(String s, int k) {
@@ -21,7 +21,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.reverseStr("abcdefg", 2));
-        StdOut.println(s.reverseStr("a", 2));
+        System.out.println(s.reverseStr("abcdefg", 2));
+        System.out.println(s.reverseStr("a", 2));
 	}
 }

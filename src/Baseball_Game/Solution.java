@@ -1,6 +1,6 @@
 package Baseball_Game;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +32,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.calPoints(new String[]{"5","2","C","D","+"}));
-        StdOut.println(s.calPoints(new String[]{"5","-2","4","C","D","9","+","+"}));
+        System.out.println(s.calPoints(new String[]{"5","2","C","D","+"}));
+        System.out.println(s.calPoints(new String[]{"5","-2","4","C","D","9","+","+"}));
 	}
 }

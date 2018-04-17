@@ -1,6 +1,6 @@
 package Next_Greater_Element_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Stack;
 
@@ -33,7 +33,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//		for (int i: s.nextGreaterElements(new int[]{1, 2, 1})) StdOut.print(i + " ");StdOut.println();
-		for (int i: s.nextGreaterElements(new int[]{5, 4, 3, 2, 1})) StdOut.print(i + " ");StdOut.println();
+//		for (int i: s.nextGreaterElements(new int[]{1, 2, 1})) System.out.print(i + " ");System.out.println();
+		for (int i: s.nextGreaterElements(new int[]{5, 4, 3, 2, 1})) System.out.print(i + " ");System.out.println();
 	}
 }

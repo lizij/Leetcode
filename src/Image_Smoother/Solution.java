@@ -1,6 +1,6 @@
 package Image_Smoother;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     private int n;
@@ -44,8 +44,8 @@ public class Solution {
         };
 		int[][] output1 = s.imageSmoother(input1);
         for (int i = 0; i < output1.length; i++) {
-            for (int j = 0; j < output1[0].length; j++) StdOut.print(output1[i][j] + " ");
-            StdOut.println();
+            for (int j = 0; j < output1[0].length; j++) System.out.print(output1[i][j] + " ");
+            System.out.println();
         }
     }
 }

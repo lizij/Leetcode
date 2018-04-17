@@ -1,6 +1,6 @@
 package N_Queens_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,6 +47,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.totalNQueens(4));
+        System.out.println(s.totalNQueens(4));
 	}
 }

@@ -1,6 +1,6 @@
 package Permutations;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,9 +33,9 @@ public class Solution {
 		List<List<Integer>> output1 = s.permute(new int[]{1, 2, 3});
 		for (List<Integer> list: output1){
 		    for (Integer i: list){
-                StdOut.print(i + " ");
+                System.out.print(i + " ");
             }
-            StdOut.println();
+            System.out.println();
         }
 	}
 }

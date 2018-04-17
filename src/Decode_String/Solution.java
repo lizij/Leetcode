@@ -1,5 +1,5 @@
 package Decode_String;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Stack;
 
@@ -42,9 +42,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.decodeString("3[a]2[bc]"));//aaabcbc
-        StdOut.println(s.decodeString("3[a2[c]]"));//accaccacc
-        StdOut.println(s.decodeString("2[abc]3[cd]ef"));//abcabccdcdcdef
-        StdOut.println(s.decodeString("2[2[b]]"));//bbbb
+        System.out.println(s.decodeString("3[a]2[bc]"));//aaabcbc
+        System.out.println(s.decodeString("3[a2[c]]"));//accaccacc
+        System.out.println(s.decodeString("2[abc]3[cd]ef"));//abcabccdcdcdef
+        System.out.println(s.decodeString("2[2[b]]"));//bbbb
 	}
 }

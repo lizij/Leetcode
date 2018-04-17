@@ -2,7 +2,7 @@ package Lowest_Common_Ancestor_of_a_Binary_Search_Tree;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -21,7 +21,7 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
 		Tree input1 = new Tree(new Object[]{6, 2, 8, 0, 4, 7, 9, null, null, 3, 5});
-//        StdOut.println(s.lowestCommonAncestor(input1.root, input1.root.left.left, input1.root.left.right.right));
-        StdOut.println(s.lowestCommonAncestor(input1.root, input1.root, input1.root.left));
+//        System.out.println(s.lowestCommonAncestor(input1.root, input1.root.left.left, input1.root.left.right.right));
+        System.out.println(s.lowestCommonAncestor(input1.root, input1.root, input1.root.left));
 	}
 }

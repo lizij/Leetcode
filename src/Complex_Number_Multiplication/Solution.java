@@ -1,6 +1,6 @@
 package Complex_Number_Multiplication;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -26,7 +26,7 @@ public class Solution {
         String b = "1+-1i";
 
         Solution s = new Solution();
-        StdOut.println(s.complexNumberMultiply(a, a));
-        StdOut.println(s.complexNumberMultiply(b, b));
+        System.out.println(s.complexNumberMultiply(a, a));
+        System.out.println(s.complexNumberMultiply(b, b));
     }
 }

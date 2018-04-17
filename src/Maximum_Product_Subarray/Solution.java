@@ -1,6 +1,6 @@
 package Maximum_Product_Subarray;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int maxProduct(int[] nums) {
@@ -16,7 +16,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.maxProduct(new int[]{2,3,-2,4}));
-        StdOut.println(s.maxProduct(new int[]{-2,3,-4}));
+        System.out.println(s.maxProduct(new int[]{2,3,-2,4}));
+        System.out.println(s.maxProduct(new int[]{-2,3,-4}));
 	}
 }

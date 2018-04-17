@@ -1,6 +1,6 @@
 package Combination_Sum;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,7 +33,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        StdOut.println(s.combinationSum(new int[]{2, 3, 6, 7}, 7));
-        StdOut.println(s.combinationSum(new int[]{1, 2}, 4));
+        System.out.println(s.combinationSum(new int[]{2, 3, 6, 7}, 7));
+        System.out.println(s.combinationSum(new int[]{1, 2}, 4));
     }
 }

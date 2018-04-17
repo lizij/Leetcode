@@ -1,6 +1,6 @@
 package Plus_One;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.List;
@@ -17,13 +17,13 @@ public class Solution {
             carry = val / 10;
         }
         if (carry == 1) num.add(0, 1);
-//        StdOut.println(num);
+//        System.out.println(num);
         return num.stream().mapToInt(Integer::intValue).toArray();
     }
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.plusOne(new int[]{8,1}));
-        StdOut.println(s.plusOne(new int[]{9,9}));
+        System.out.println(s.plusOne(new int[]{8,1}));
+        System.out.println(s.plusOne(new int[]{9,9}));
 	}
 }

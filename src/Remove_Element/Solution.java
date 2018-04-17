@@ -1,6 +1,6 @@
 package Remove_Element;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int removeElement(int[] nums, int val) {
@@ -16,7 +16,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.removeElement(new int[]{3, 2, 2, 3}, 3));
-        StdOut.println(s.removeElement(new int[]{4, 4, 0, 1, 0, 2}, 0));
+        System.out.println(s.removeElement(new int[]{3, 2, 2, 3}, 3));
+        System.out.println(s.removeElement(new int[]{4, 4, 0, 1, 0, 2}, 0));
 	}
 }

@@ -1,6 +1,6 @@
 package Knight_Probability_in_Chessboard;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -56,7 +56,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.knightProbability(3,2,0,0));//0.0625
-        StdOut.println(s.knightProbability(8,30,6,4));//0.00019
+        System.out.println(s.knightProbability(3,2,0,0));//0.0625
+        System.out.println(s.knightProbability(8,30,6,4));//0.00019
 	}
 }

@@ -1,6 +1,6 @@
 package _24_Game;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -44,7 +44,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.judgePoint24(new int[]{4, 1, 8, 7}));//true
-        StdOut.println(s.judgePoint24(new int[]{1, 2, 1, 2}));//false
+        System.out.println(s.judgePoint24(new int[]{4, 1, 8, 7}));//true
+        System.out.println(s.judgePoint24(new int[]{1, 2, 1, 2}));//false
 	}
 }

@@ -1,6 +1,6 @@
 package Array_Nesting;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -67,8 +67,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.arrayNesting(new int[]{5, 4, 0, 3, 1, 6, 2}));
-        StdOut.println(s.arrayNesting(new int[]{0,1,2}));
-        StdOut.println(s.arrayNesting(new int[]{2,3,1,4,0}));
+        System.out.println(s.arrayNesting(new int[]{5, 4, 0, 3, 1, 6, 2}));
+        System.out.println(s.arrayNesting(new int[]{0,1,2}));
+        System.out.println(s.arrayNesting(new int[]{2,3,1,4,0}));
 	}
 }

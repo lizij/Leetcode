@@ -1,6 +1,6 @@
 package Number_of_Boomerangs;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 
@@ -35,6 +35,6 @@ public class Solution {
                 {0, 0},
                 {1, 0}
         };
-        StdOut.println(s.numberOfBoomerangs(input1));
+        System.out.println(s.numberOfBoomerangs(input1));
 	}
 }

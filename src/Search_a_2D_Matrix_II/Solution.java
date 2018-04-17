@@ -1,6 +1,6 @@
 package Search_a_2D_Matrix_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
@@ -46,7 +46,7 @@ public class Solution {
                 {10, 13, 14, 17, 24},
                 {18, 21, 23, 26, 30}
         };
-        StdOut.println(s.searchMatrix(input1, 5));
-        StdOut.println(s.searchMatrix(input1, 20));
+        System.out.println(s.searchMatrix(input1, 5));
+        System.out.println(s.searchMatrix(input1, 20));
 	}
 }

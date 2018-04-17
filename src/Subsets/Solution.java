@@ -1,6 +1,6 @@
 package Subsets;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.net.Inet4Address;
 import java.util.ArrayList;
@@ -33,9 +33,9 @@ public class Solution {
 		Solution s = new Solution();
 		List<List<Integer>> output1 = s.subsets(new int[]{1, 2, 3});
 		for (List<Integer> list: output1){
-		    StdOut.print("#");
-		    for (int i: list) StdOut.print(i + " ");
-		    StdOut.println();
+		    System.out.print("#");
+		    for (int i: list) System.out.print(i + " ");
+		    System.out.println();
         }
 	}
 }

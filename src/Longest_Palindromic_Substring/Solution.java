@@ -1,6 +1,6 @@
 package Longest_Palindromic_Substring;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public String longestPalindrome(String s) {
@@ -25,9 +25,9 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        StdOut.println(s.longestPalindrome("babad"));
-        StdOut.println(s.longestPalindrome("cbbd"));
-        StdOut.println(s.longestPalindrome("abcda"));
-        StdOut.println(s.longestPalindrome("babadada"));
+        System.out.println(s.longestPalindrome("babad"));
+        System.out.println(s.longestPalindrome("cbbd"));
+        System.out.println(s.longestPalindrome("abcda"));
+        System.out.println(s.longestPalindrome("babadada"));
     }
 }

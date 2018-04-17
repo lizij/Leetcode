@@ -1,6 +1,6 @@
 package Roman_to_Integer;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 
@@ -32,7 +32,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.romanToInt("DCXXI"));
-        StdOut.println(s.romanToInt("MCMXCVI"));
+//        System.out.println(s.romanToInt("DCXXI"));
+        System.out.println(s.romanToInt("MCMXCVI"));
 	}
 }

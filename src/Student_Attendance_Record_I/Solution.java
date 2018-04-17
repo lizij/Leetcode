@@ -1,6 +1,6 @@
 package Student_Attendance_Record_I;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean checkRecord(String s) {
@@ -12,8 +12,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.checkRecord("PPALLP"));
-        StdOut.println(s.checkRecord("PPALLL"));
-        StdOut.println(s.checkRecord("LLLALL"));
+        System.out.println(s.checkRecord("PPALLP"));
+        System.out.println(s.checkRecord("PPALLL"));
+        System.out.println(s.checkRecord("LLLALL"));
 	}
 }

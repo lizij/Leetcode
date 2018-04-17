@@ -1,6 +1,6 @@
 package Integer_Break;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int integerBreak(int n) {
@@ -17,6 +17,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        for (int i = 2; i < 12; i++) StdOut.println(i + ":" + s.integerBreak(i));
+        for (int i = 2; i < 12; i++) System.out.println(i + ":" + s.integerBreak(i));
 	}
 }

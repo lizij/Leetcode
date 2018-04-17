@@ -1,6 +1,6 @@
 package Battleships_in_a_Board;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int countBattleships(char[][] board) {
@@ -27,6 +27,6 @@ public class Solution {
         char[][] input = {  {'X','.','.','X'},
                             {'.','.','.','X'},
                             {'.','.','.','X'}};
-        StdOut.println(s.countBattleships(input));
+        System.out.println(s.countBattleships(input));
     }
 }

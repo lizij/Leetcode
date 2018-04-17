@@ -2,7 +2,7 @@ package Symmetric_Tree;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -47,7 +47,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.isSymmetric(new Tree(new Object[]{1,2,2,3,4,4,3}).root));
-        StdOut.println(s.isSymmetric(new Tree(new Object[]{1,2,2,null,3,null,3}).root));
+        System.out.println(s.isSymmetric(new Tree(new Object[]{1,2,2,3,4,4,3}).root));
+        System.out.println(s.isSymmetric(new Tree(new Object[]{1,2,2,null,3,null,3}).root));
 	}
 }

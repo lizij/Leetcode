@@ -2,7 +2,7 @@ package Find_Largest_Value_in_Each_Tree_Row;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 import org.omg.CORBA.INTERNAL;
 
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ public class Solution {
         Solution s = new Solution();
         Tree tree = new Tree(new Object[]{1, 3, 2, 5, 3, null, 9});
         for (Integer i: s.largestValues(tree.root)){
-            StdOut.print(i + " ");
+            System.out.print(i + " ");
         }
     }
 }

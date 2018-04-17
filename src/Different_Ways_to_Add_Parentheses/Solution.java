@@ -1,6 +1,6 @@
 package Different_Ways_to_Add_Parentheses;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -189,6 +189,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		StdOut.println(s.diffWaysToCompute("2*3-4*5"));
+		System.out.println(s.diffWaysToCompute("2*3-4*5"));
 	}
 }

@@ -2,7 +2,7 @@ package Find_Mode_in_Binary_Search_Tree;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -40,6 +40,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		for (int i: s.findMode(new Tree(new Object[]{1, null, 2, null, null, 2}).root)) StdOut.print(i + " ");
+		for (int i: s.findMode(new Tree(new Object[]{1, null, 2, null, null, 2}).root)) System.out.print(i + " ");
 	}
 }

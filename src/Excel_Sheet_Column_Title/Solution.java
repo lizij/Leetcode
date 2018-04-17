@@ -1,6 +1,6 @@
 package Excel_Sheet_Column_Title;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public String convertToTitle(int n) {
@@ -10,7 +10,7 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
         for (int i = 1; i < 30; i++) {
-            StdOut.println(i + ":" + s.convertToTitle(i));
+            System.out.println(i + ":" + s.convertToTitle(i));
         }
     }
 }

@@ -1,6 +1,6 @@
 package Multiply_Strings;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,9 +74,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.add("123", "987"));
-//        StdOut.println(s.multiply("1234567", 11));
-        StdOut.println(s.multiply("1234", "1111"));
-        StdOut.println(s.multiply("9133", "0"));
+//        System.out.println(s.add("123", "987"));
+//        System.out.println(s.multiply("1234567", 11));
+        System.out.println(s.multiply("1234", "1111"));
+        System.out.println(s.multiply("9133", "0"));
 	}
 }

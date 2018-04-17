@@ -1,6 +1,6 @@
 package Valid_Triangle_Number;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 
@@ -24,6 +24,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.triangleNumber(new int[]{2, 2, 3, 4}));
+        System.out.println(s.triangleNumber(new int[]{2, 2, 3, 4}));
 	}
 }

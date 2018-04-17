@@ -1,6 +1,6 @@
 package Degree_of_an_Array;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.*;
 
@@ -41,7 +41,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.findShortestSubArray(new int[]{1, 2, 2, 3, 1}));
-        StdOut.println(s.findShortestSubArray(new int[]{1, 2, 2, 3, 1, 4, 2}));
+        System.out.println(s.findShortestSubArray(new int[]{1, 2, 2, 3, 1}));
+        System.out.println(s.findShortestSubArray(new int[]{1, 2, 2, 3, 1, 4, 2}));
 	}
 }

@@ -1,6 +1,6 @@
 package Sort_Characters_By_Frequency;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.*;
 
@@ -29,8 +29,8 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        StdOut.println(s.frequencySort("tree"));
-        StdOut.println(s.frequencySort("cccaaa"));
-        StdOut.println(s.frequencySort("Aabb"));
+        System.out.println(s.frequencySort("tree"));
+        System.out.println(s.frequencySort("cccaaa"));
+        System.out.println(s.frequencySort("Aabb"));
     }
 }

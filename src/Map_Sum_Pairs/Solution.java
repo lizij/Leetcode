@@ -1,6 +1,6 @@
 package Map_Sum_Pairs;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 import java.util.List;
@@ -44,8 +44,8 @@ public class Solution {
     public static void main(String[] args) {
         Solution s = new Solution();
         s.mapSum.insert("apple", 3);
-        StdOut.println(s.mapSum.sum("ap"));
+        System.out.println(s.mapSum.sum("ap"));
         s.mapSum.insert("app", 2);
-        StdOut.println(s.mapSum.sum("ap"));
+        System.out.println(s.mapSum.sum("ap"));
     }
 }

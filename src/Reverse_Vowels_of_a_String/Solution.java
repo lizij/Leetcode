@@ -1,6 +1,6 @@
 package Reverse_Vowels_of_a_String;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashSet;
 import java.util.Set;
@@ -31,10 +31,10 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.reverseVowels("hello"));//holle
-        StdOut.println(s.reverseVowels("leetcode"));//leotcede
-        StdOut.println(s.reverseVowels("l"));
-        StdOut.println(s.reverseVowels(""));
-        StdOut.println(s.reverseVowels("aA"));
+        System.out.println(s.reverseVowels("hello"));//holle
+        System.out.println(s.reverseVowels("leetcode"));//leotcede
+        System.out.println(s.reverseVowels("l"));
+        System.out.println(s.reverseVowels(""));
+        System.out.println(s.reverseVowels("aA"));
 	}
 }

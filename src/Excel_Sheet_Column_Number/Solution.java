@@ -1,6 +1,6 @@
 package Excel_Sheet_Column_Number;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int titleToNumber(String s) {
@@ -11,8 +11,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.titleToNumber("A"));
-        StdOut.println(s.titleToNumber("AA"));
-        StdOut.println(s.titleToNumber("BAZ"));
+        System.out.println(s.titleToNumber("A"));
+        System.out.println(s.titleToNumber("AA"));
+        System.out.println(s.titleToNumber("BAZ"));
     }
 }

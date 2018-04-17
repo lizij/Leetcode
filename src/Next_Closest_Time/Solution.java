@@ -1,6 +1,6 @@
 package Next_Closest_Time;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashSet;
 import java.util.Set;
@@ -34,7 +34,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		StdOut.println(s.nextClosestTime("19:34"));//19:39
-		StdOut.println(s.nextClosestTime("23:59"));//22:22
+		System.out.println(s.nextClosestTime("19:34"));//19:39
+		System.out.println(s.nextClosestTime("23:59"));//22:22
 	}
 }

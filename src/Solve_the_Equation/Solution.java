@@ -1,6 +1,6 @@
 package Solve_the_Equation;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public String solveEquation(String equation) {
@@ -41,11 +41,11 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.solveEquation("x+5-3+x=6+x-2"));//x=2
-//        StdOut.println(s.solveEquation("x=x"));//Infinite solutions
-//        StdOut.println(s.solveEquation("2x=x"));//x=0
-        StdOut.println(s.solveEquation("2x+3x-6x=x+2"));//x=-1
-//        StdOut.println(s.solveEquation("x=x+2"));//No solution
-//        StdOut.println(s.solveEquation("-x=-1"));//x=1
+//        System.out.println(s.solveEquation("x+5-3+x=6+x-2"));//x=2
+//        System.out.println(s.solveEquation("x=x"));//Infinite solutions
+//        System.out.println(s.solveEquation("2x=x"));//x=0
+        System.out.println(s.solveEquation("2x+3x-6x=x+2"));//x=-1
+//        System.out.println(s.solveEquation("x=x+2"));//No solution
+//        System.out.println(s.solveEquation("-x=-1"));//x=1
 	}
 }

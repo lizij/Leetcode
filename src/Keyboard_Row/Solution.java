@@ -1,6 +1,6 @@
 package Keyboard_Row;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 
@@ -29,7 +29,7 @@ public class Solution {
         Solution s = new Solution();
         String[] input = {"Hello", "Alaska", "Dad", "Peace"};
         for (String word: s.findWords(input)){
-            StdOut.print(word + " ");
+            System.out.print(word + " ");
         }
     }
 }

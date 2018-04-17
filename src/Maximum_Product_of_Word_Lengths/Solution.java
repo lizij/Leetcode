@@ -1,6 +1,6 @@
 package Maximum_Product_of_Word_Lengths;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int maxProduct(String[] words) {
@@ -25,8 +25,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.maxProduct(new String[]{"abcw", "baz", "foo", "bar", "xtfn", "abcdef"}));
-        StdOut.println(s.maxProduct(new String[]{"a", "ab", "abc", "d", "cd", "bcd", "abcd"}));
-        StdOut.println(s.maxProduct(new String[]{"a", "aa", "aaa", "aaaa"}));
+        System.out.println(s.maxProduct(new String[]{"abcw", "baz", "foo", "bar", "xtfn", "abcdef"}));
+        System.out.println(s.maxProduct(new String[]{"a", "ab", "abc", "d", "cd", "bcd", "abcd"}));
+        System.out.println(s.maxProduct(new String[]{"a", "aa", "aaa", "aaaa"}));
 	}
 }

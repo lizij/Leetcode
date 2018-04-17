@@ -1,6 +1,6 @@
 package Spiral_Matrix_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int[][] generateMatrix(int n) {
@@ -23,8 +23,8 @@ public class Solution {
 		Solution s = new Solution();
         int[][] output1 = s.generateMatrix(4);
         for (int[] line: output1){
-            for (int i: line) StdOut.print(i + " ");
-            StdOut.println();
+            for (int i: line) System.out.print(i + " ");
+            System.out.println();
         }
 	}
 }

@@ -2,7 +2,7 @@ package Binary_Tree_Paths;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,6 +41,6 @@ class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.binaryTreePaths(new Tree(new Object[]{1,2,3,null,5}).root));
+        System.out.println(s.binaryTreePaths(new Tree(new Object[]{1,2,3,null,5}).root));
 	}
 }

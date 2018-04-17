@@ -1,6 +1,6 @@
 package Longest_Continuous_Increasing_Subsequence;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int findLengthOfLCIS(int[] nums) {
@@ -19,7 +19,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.findLengthOfLCIS(new int[]{1, 3, 5, 4, 7}));//3
-        StdOut.println(s.findLengthOfLCIS(new int[]{2, 2, 2, 2, 2}));//1
+        System.out.println(s.findLengthOfLCIS(new int[]{1, 3, 5, 4, 7}));//3
+        System.out.println(s.findLengthOfLCIS(new int[]{2, 2, 2, 2, 2}));//1
 	}
 }

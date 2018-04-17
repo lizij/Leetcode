@@ -1,6 +1,6 @@
 package Longest_Harmonious_Subsequence;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.*;
 
@@ -21,6 +21,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.findLHS(new int[]{1,3,2,2,5,2,3,7}));
+        System.out.println(s.findLHS(new int[]{1,3,2,2,5,2,3,7}));
 	}
 }

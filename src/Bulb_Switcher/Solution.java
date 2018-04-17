@@ -1,6 +1,6 @@
 package Bulb_Switcher;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int bulbSwitch(int n) {
@@ -19,7 +19,7 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
         for (int i = 1; i < 100; i++) {
-            StdOut.println(i + ":" + s.bulbSwitch(i));
+            System.out.println(i + ":" + s.bulbSwitch(i));
         }
     }
 }

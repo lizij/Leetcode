@@ -1,6 +1,6 @@
 package Friend_Circles;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -35,19 +35,19 @@ public class Solution {
 //                {1, 1, 0},
 //                {0, 0, 1}
 //		};
-//        StdOut.println(s.findCircleNum(input1));
+//        System.out.println(s.findCircleNum(input1));
 //        int[][] input2 = {
 //		        {1, 1, 0},
 //                {1, 1, 1},
 //                {0, 1, 1}
 //		};
-//        StdOut.println(s.findCircleNum(input2));
+//        System.out.println(s.findCircleNum(input2));
         int[][] input3 = {
                 {1,0,0,1},
                 {0,1,1,0},
                 {0,1,1,1},
                 {1,0,1,1}
         };
-        StdOut.println(s.findCircleNum(input3));
+        System.out.println(s.findCircleNum(input3));
 	}
 }

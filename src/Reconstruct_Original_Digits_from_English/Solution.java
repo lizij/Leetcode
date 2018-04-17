@@ -1,6 +1,6 @@
 package Reconstruct_Original_Digits_from_English;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public String originalDigits(String s) {
@@ -34,7 +34,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.originalDigits("owoztneoer"));
-        StdOut.println(s.originalDigits("fviefuro"));
+        System.out.println(s.originalDigits("owoztneoer"));
+        System.out.println(s.originalDigits("fviefuro"));
 	}
 }

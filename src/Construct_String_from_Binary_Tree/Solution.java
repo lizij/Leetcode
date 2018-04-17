@@ -2,7 +2,7 @@ package Construct_String_from_Binary_Tree;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public String tree2str(TreeNode t) {
@@ -17,7 +17,7 @@ public class Solution {
     }
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.tree2str(new Tree(new Object[]{1, 2, 3, 4}).root));
-        StdOut.println(s.tree2str(new Tree(new Object[]{1, 2, 3, null, 4}).root));
+        System.out.println(s.tree2str(new Tree(new Object[]{1, 2, 3, 4}).root));
+        System.out.println(s.tree2str(new Tree(new Object[]{1, 2, 3, null, 4}).root));
 	}
 }

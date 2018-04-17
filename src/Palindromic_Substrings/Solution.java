@@ -1,6 +1,6 @@
 package Palindromic_Substrings;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 import java.util.Stack;
@@ -15,14 +15,14 @@ public class Solution {
 //        }
 //        return count;
         int N = s.length();
-//        StdOut.println(s);
+//        System.out.println(s);
         if (N <= 1) return N;
         if (s.charAt(0) == s.charAt(N - 1)){
-//            StdOut.println(s + " = " + s.substring(0, N - 1) + " + " + s.substring(1, N) + " - " + s.substring(1, N - 1) + " + 1");
+//            System.out.println(s + " = " + s.substring(0, N - 1) + " + " + s.substring(1, N) + " - " + s.substring(1, N - 1) + " + 1");
             return countSubstrings(s.substring(0, N - 1)) + countSubstrings(s.substring(1, N)) - countSubstrings(s.substring(1, N - 1)) + 1;
         }
         else{
-//            StdOut.println(s + " = " + s.substring(0, N - 1) + " + " + s.substring(1, N) + " - " + s.substring(1, N - 1));
+//            System.out.println(s + " = " + s.substring(0, N - 1) + " + " + s.substring(1, N) + " - " + s.substring(1, N - 1));
             return countSubstrings(s.substring(0, N - 1)) + countSubstrings(s.substring(1, N)) - countSubstrings(s.substring(1, N - 1));
         }
     }
@@ -38,8 +38,8 @@ public class Solution {
         Solution s = new Solution();
 //        String input1 = "abc";
 //        String input2 = "aaa";
-        StdOut.println(s.countSubstrings("abc"));
-        StdOut.println(s.countSubstrings("aaa"));
-        StdOut.println(s.countSubstrings("fdsklf"));
+        System.out.println(s.countSubstrings("abc"));
+        System.out.println(s.countSubstrings("aaa"));
+        System.out.println(s.countSubstrings("fdsklf"));
     }
 }

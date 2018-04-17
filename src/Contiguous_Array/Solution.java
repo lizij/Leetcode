@@ -1,6 +1,6 @@
 package Contiguous_Array;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 
@@ -23,8 +23,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.findMaxLength(new int[]{0, 1}));
-        StdOut.println(s.findMaxLength(new int[]{0, 1, 0}));
-        StdOut.println(s.findMaxLength(new int[]{0,1,1,0,1,1,0,1,0,1,0,1,1,1,0}));
+        System.out.println(s.findMaxLength(new int[]{0, 1}));
+        System.out.println(s.findMaxLength(new int[]{0, 1, 0}));
+        System.out.println(s.findMaxLength(new int[]{0,1,1,0,1,1,0,1,0,1,0,1,1,1,0}));
 	}
 }

@@ -1,6 +1,6 @@
 package Implement_Magic_Dictionary;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -51,9 +51,9 @@ public class Solution{
 	public static void main(String[] args) {
 		Solution s = new Solution();
 		s.dictionary.buildDict(new String[]{"hello", "leetcode"});
-        StdOut.println(s.dictionary.search("hello"));
-        StdOut.println(s.dictionary.search("hhllo"));
-        StdOut.println(s.dictionary.search("hell"));
-        StdOut.println(s.dictionary.search("leetcoded"));
+        System.out.println(s.dictionary.search("hello"));
+        System.out.println(s.dictionary.search("hhllo"));
+        System.out.println(s.dictionary.search("hell"));
+        System.out.println(s.dictionary.search("leetcoded"));
 	}
 }

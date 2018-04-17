@@ -1,6 +1,6 @@
 package Random_Pick_Index;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +35,7 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution(new int[]{1, 2, 3, 3, 3});
         for (int i = 0; i < 10; i++) {
-            StdOut.println(s.pick(3));
+            System.out.println(s.pick(3));
         }
     }
 }

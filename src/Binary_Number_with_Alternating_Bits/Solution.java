@@ -1,6 +1,6 @@
 package Binary_Number_with_Alternating_Bits;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean hasAlternatingBits(int n) {
@@ -22,9 +22,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		StdOut.println(s.hasAlternatingBits(5));//true
-		StdOut.println(s.hasAlternatingBits(7));//false
-		StdOut.println(s.hasAlternatingBits(11));//false
-		StdOut.println(s.hasAlternatingBits(10));//true
+		System.out.println(s.hasAlternatingBits(5));//true
+		System.out.println(s.hasAlternatingBits(7));//false
+		System.out.println(s.hasAlternatingBits(11));//false
+		System.out.println(s.hasAlternatingBits(10));//true
 	}
 }

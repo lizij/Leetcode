@@ -1,7 +1,7 @@
 package Linked_List_Random_Node;
 
 import Others.ListNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 import java.util.Random;
@@ -43,7 +43,7 @@ public class Solution {
             map.put(val, map.getOrDefault(val, 0) + 1);
         }
         for (Integer i: map.keySet()){
-            StdOut.println(i + ":" + map.get(i));
+            System.out.println(i + ":" + map.get(i));
         }
     }
 }

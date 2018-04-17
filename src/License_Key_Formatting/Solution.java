@@ -1,6 +1,6 @@
 package License_Key_Formatting;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public String licenseKeyFormatting(String S, int K) {
@@ -15,8 +15,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.licenseKeyFormatting("2-4A0r7-4k", 4));
-        StdOut.println(s.licenseKeyFormatting("2-4A0r7-4k", 3));
-        StdOut.println(s.licenseKeyFormatting("--a-a-a-a--", 2));
+        System.out.println(s.licenseKeyFormatting("2-4A0r7-4k", 4));
+        System.out.println(s.licenseKeyFormatting("2-4A0r7-4k", 3));
+        System.out.println(s.licenseKeyFormatting("--a-a-a-a--", 2));
 	}
 }

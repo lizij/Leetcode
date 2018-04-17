@@ -1,6 +1,6 @@
 package Best_Time_to_Buy_and_Sell_Stock;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int maxProfit(int[] prices) {
@@ -19,7 +19,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.maxProfit(new int[]{7, 1, 5, 3, 6, 4})); // 5
-        StdOut.println(s.maxProfit(new int[]{7, 6, 4, 3, 1})); // 0
+        System.out.println(s.maxProfit(new int[]{7, 1, 5, 3, 6, 4})); // 5
+        System.out.println(s.maxProfit(new int[]{7, 6, 4, 3, 1})); // 0
 	}
 }

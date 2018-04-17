@@ -1,6 +1,6 @@
 package Beautiful_Arrangement_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,8 +27,8 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-//        for (int i: s.constructArray(3, 1)) StdOut.print(i + " ");StdOut.println();
-//        for (int i: s.constructArray(3, 2)) StdOut.print(i + " ");StdOut.println();
-        for (int i: s.constructArray(7, 4)) StdOut.print(i + " ");StdOut.println();
+//        for (int i: s.constructArray(3, 1)) System.out.print(i + " ");System.out.println();
+//        for (int i: s.constructArray(3, 2)) System.out.print(i + " ");System.out.println();
+        for (int i: s.constructArray(7, 4)) System.out.print(i + " ");System.out.println();
     }
 }

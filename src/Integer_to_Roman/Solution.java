@@ -1,6 +1,6 @@
 package Integer_to_Roman;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public String intToRoman(int num) {
@@ -13,6 +13,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.intToRoman(1996));
+        System.out.println(s.intToRoman(1996));
 	}
 }

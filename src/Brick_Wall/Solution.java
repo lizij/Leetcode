@@ -1,6 +1,6 @@
 package Brick_Wall;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -81,6 +81,6 @@ public class Solution {
 //        input1.add(Arrays.asList(100000000));
 //        input1.add(Arrays.asList(100000000));
 //        input1.add(Arrays.asList(100000000));
-        StdOut.println(s.leastBricks(input1));
+        System.out.println(s.leastBricks(input1));
 	}
 }

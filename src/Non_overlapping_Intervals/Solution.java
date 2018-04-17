@@ -1,7 +1,7 @@
 package Non_overlapping_Intervals;
 
 import Others.Interval;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -23,8 +23,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.eraseOverlapIntervals(new Interval[]{new Interval(1, 2), new Interval(2, 3), new Interval(3, 4), new Interval(1, 3)}));
-        StdOut.println(s.eraseOverlapIntervals(new Interval[]{new Interval(1, 2), new Interval(1, 2), new Interval(1, 2)}));
-        StdOut.println(s.eraseOverlapIntervals(new Interval[]{new Interval(1, 2), new Interval(2, 3)}));
+        System.out.println(s.eraseOverlapIntervals(new Interval[]{new Interval(1, 2), new Interval(2, 3), new Interval(3, 4), new Interval(1, 3)}));
+        System.out.println(s.eraseOverlapIntervals(new Interval[]{new Interval(1, 2), new Interval(1, 2), new Interval(1, 2)}));
+        System.out.println(s.eraseOverlapIntervals(new Interval[]{new Interval(1, 2), new Interval(2, 3)}));
 	}
 }

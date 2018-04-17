@@ -1,6 +1,6 @@
 package Split_Array_Largest_Sum;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 
@@ -74,6 +74,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.splitArray(new int[]{7,2,5,10,8}, 2));
+        System.out.println(s.splitArray(new int[]{7,2,5,10,8}, 2));
 	}
 }

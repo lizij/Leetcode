@@ -2,7 +2,7 @@ package Binary_Search_Tree_Iterator;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -45,6 +45,6 @@ public class Solution{
  */
 	public static void main(String[] args) {
 		Solution s = new Solution(new Tree(new Object[]{4, 2, 6, 1, 3, 5, 7}).root);
-        while (s.bstIterator.hasNext()) StdOut.print(s.bstIterator.next() + " ");
+        while (s.bstIterator.hasNext()) System.out.print(s.bstIterator.next() + " ");
 	}
 }

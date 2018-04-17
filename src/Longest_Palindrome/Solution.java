@@ -1,6 +1,6 @@
 package Longest_Palindrome;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,6 +26,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.longestPalindrome("ccccdd"));
+        System.out.println(s.longestPalindrome("ccccdd"));
 	}
 }

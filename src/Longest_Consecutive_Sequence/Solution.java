@@ -1,6 +1,6 @@
 package Longest_Consecutive_Sequence;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.*;
 
@@ -68,7 +68,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.longestConsecutive(new int[]{100,4,200,1,3,2}));//4
-        StdOut.println(s.longestConsecutive(new int[]{1,3,5,2,4}));//4
+        System.out.println(s.longestConsecutive(new int[]{100,4,200,1,3,2}));//4
+        System.out.println(s.longestConsecutive(new int[]{1,3,5,2,4}));//4
 	}
 }

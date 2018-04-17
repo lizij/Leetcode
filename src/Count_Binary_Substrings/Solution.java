@@ -1,6 +1,6 @@
 package Count_Binary_Substrings;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int countBinarySubstrings(String s) {
@@ -25,7 +25,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		StdOut.println(s.countBinarySubstrings("00110011"));
-		StdOut.println(s.countBinarySubstrings("10101"));
+		System.out.println(s.countBinarySubstrings("00110011"));
+		System.out.println(s.countBinarySubstrings("10101"));
 	}
 }

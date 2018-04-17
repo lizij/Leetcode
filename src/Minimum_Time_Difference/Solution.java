@@ -1,6 +1,6 @@
 package Minimum_Time_Difference;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 import java.util.List;
@@ -26,6 +26,6 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
 		List<String> input1 = Arrays.asList("23:59", "00:02", "00:00", "02:10", "17:59", "20:22", "23:50");
-        StdOut.println(s.findMinDifference(input1));
+        System.out.println(s.findMinDifference(input1));
     }
 }

@@ -1,6 +1,6 @@
 package Bulb_Switcher_II;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -75,6 +75,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.flipLights(3, 1));
+        System.out.println(s.flipLights(3, 1));
 	}
 }

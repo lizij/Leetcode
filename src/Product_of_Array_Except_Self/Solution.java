@@ -1,6 +1,6 @@
 package Product_of_Array_Except_Self;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int[] productExceptSelf(int[] nums) {
@@ -20,6 +20,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-		for (int i: s.productExceptSelf(new int[]{1, 2, 3, 4})) StdOut.print(i + " ");
+		for (int i: s.productExceptSelf(new int[]{1, 2, 3, 4})) System.out.print(i + " ");
 	}
 }

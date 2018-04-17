@@ -1,6 +1,6 @@
 package Valid_Perfect_Square;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean isPerfectSquare(int num) {
@@ -17,7 +17,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.isPerfectSquare(16));
-        StdOut.println(s.isPerfectSquare(14));
+        System.out.println(s.isPerfectSquare(16));
+        System.out.println(s.isPerfectSquare(14));
 	}
 }

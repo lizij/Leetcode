@@ -1,7 +1,7 @@
 package Data_Stream_as_Disjoint_Intervals;
 
 import Others.Interval;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -50,14 +50,14 @@ public class Solution{
 	public static void main(String[] args) {
 		Solution s = new Solution();
 		s.summaryRanges.addNum(1);
-		for (Interval interval: s.summaryRanges.getIntervals()) StdOut.print(interval + " ");StdOut.println();
+		for (Interval interval: s.summaryRanges.getIntervals()) System.out.print(interval + " ");System.out.println();
         s.summaryRanges.addNum(3);
-        for (Interval interval: s.summaryRanges.getIntervals()) StdOut.print(interval + " ");StdOut.println();
+        for (Interval interval: s.summaryRanges.getIntervals()) System.out.print(interval + " ");System.out.println();
         s.summaryRanges.addNum(7);
-        for (Interval interval: s.summaryRanges.getIntervals()) StdOut.print(interval + " ");StdOut.println();
+        for (Interval interval: s.summaryRanges.getIntervals()) System.out.print(interval + " ");System.out.println();
         s.summaryRanges.addNum(2);
-        for (Interval interval: s.summaryRanges.getIntervals()) StdOut.print(interval + " ");StdOut.println();
+        for (Interval interval: s.summaryRanges.getIntervals()) System.out.print(interval + " ");System.out.println();
         s.summaryRanges.addNum(6);
-        for (Interval interval: s.summaryRanges.getIntervals()) StdOut.print(interval + " ");StdOut.println();
+        for (Interval interval: s.summaryRanges.getIntervals()) System.out.print(interval + " ");System.out.println();
 	}
 }

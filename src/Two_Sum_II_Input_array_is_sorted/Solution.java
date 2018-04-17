@@ -1,6 +1,6 @@
 package Two_Sum_II_Input_array_is_sorted;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int[] twoSum(int[] numbers, int target) {
@@ -25,6 +25,6 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
 
-        for (int i: s.twoSum(new int[]{2, 7, 11, 19}, 9)) StdOut.print(i + " ");
+        for (int i: s.twoSum(new int[]{2, 7, 11, 19}, 9)) System.out.print(i + " ");
 	}
 }

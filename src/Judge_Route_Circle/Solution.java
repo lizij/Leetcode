@@ -1,6 +1,6 @@
 package Judge_Route_Circle;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean judgeCircle(String moves) {
@@ -17,7 +17,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        StdOut.println(s.judgeCircle("UD"));
-        StdOut.println(s.judgeCircle("LL"));
+        System.out.println(s.judgeCircle("UD"));
+        System.out.println(s.judgeCircle("LL"));
     }
 }

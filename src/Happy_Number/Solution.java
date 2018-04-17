@@ -1,6 +1,6 @@
 package Happy_Number;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashSet;
 
@@ -28,8 +28,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.isHappy(19));
-        StdOut.println(s.isHappy(4));
-        StdOut.println(s.isHappy(987654321));
+        System.out.println(s.isHappy(19));
+        System.out.println(s.isHappy(4));
+        System.out.println(s.isHappy(987654321));
 	}
 }

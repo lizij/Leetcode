@@ -1,6 +1,6 @@
 package Smallest_Range;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.*;
 
@@ -100,6 +100,6 @@ public class Solution {
 //		int[] output = s.smallestRange(Arrays.asList(Arrays.asList(4,10,15,24,26), Arrays.asList(0,9,12,20), Arrays.asList(5,18,22,30)));
 		int[] output2 = s.smallestRange(Arrays.asList(Arrays.asList(1,3,5,7,9,10), Arrays.asList(2,4,6,8,10)));
 		int[] output3 = s.smallestRange(Arrays.asList(Arrays.asList(1)));
-        StdOut.println(output2[0] + "," + output2[1]);
+        System.out.println(output2[0] + "," + output2[1]);
 	}
 }

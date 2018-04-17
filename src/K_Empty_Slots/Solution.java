@@ -1,6 +1,6 @@
 package K_Empty_Slots;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,7 +54,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.kEmptySlots(new int[]{1,3,2}, 1));//1
-        StdOut.println(s.kEmptySlots(new int[]{1,2,3}, 1));//-1
+        System.out.println(s.kEmptySlots(new int[]{1,3,2}, 1));//1
+        System.out.println(s.kEmptySlots(new int[]{1,2,3}, 1));//-1
 	}
 }

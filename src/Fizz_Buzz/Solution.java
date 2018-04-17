@@ -1,6 +1,6 @@
 package Fizz_Buzz;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,7 @@ public class Solution {
         Solution s = new Solution();
         List<String> list = s.fizzBuzz(15);
         for (String tmp: list.toArray(new String[list.size()])){
-            StdOut.println(tmp);
+            System.out.println(tmp);
         }
     }
 }

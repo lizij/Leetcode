@@ -1,6 +1,6 @@
 package Reverse_Words_in_a_String_III;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public String reverseWords(String s) {
@@ -15,6 +15,6 @@ public class Solution {
     public static void main(String[] args) {
         Solution s = new Solution();
         String input = "Let's take LeetCode contest";
-        StdOut.println(s.reverseWords(input));
+        System.out.println(s.reverseWords(input));
     }
 }

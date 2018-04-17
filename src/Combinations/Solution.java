@@ -1,6 +1,6 @@
 package Combinations;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,8 +33,8 @@ public class Solution {
 		Solution s = new Solution();
 		List<List<Integer>> outptu1 = s.combine(4, 2);
 		for (List<Integer> list: outptu1){
-		    for (Integer i: list) StdOut.print(i + " ");
-		    StdOut.println();
+		    for (Integer i: list) System.out.print(i + " ");
+		    System.out.println();
         }
 	}
 }

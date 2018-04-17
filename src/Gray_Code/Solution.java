@@ -1,6 +1,6 @@
 package Gray_Code;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -28,6 +28,6 @@ public class Solution {
 	public static void main(String[] args) {
 		Solution s = new Solution();
         List<Integer> output1 = s.grayCode(4);
-        for (Integer i: output1) StdOut.print(i + " ");
+        for (Integer i: output1) System.out.print(i + " ");
 	}
 }

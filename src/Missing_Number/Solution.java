@@ -1,6 +1,6 @@
 package Missing_Number;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int missingNumber(int[] nums) {
@@ -28,6 +28,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.missingNumber(new int[]{0, 1, 3}));
+        System.out.println(s.missingNumber(new int[]{0, 1, 3}));
 	}
 }

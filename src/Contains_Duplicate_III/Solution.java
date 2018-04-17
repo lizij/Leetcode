@@ -1,6 +1,6 @@
 package Contains_Duplicate_III;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.*;
 
@@ -27,9 +27,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.containsNearbyAlmostDuplicate(new int[]{1, 3, 1}, 1, 2));
-        StdOut.println(s.containsNearbyAlmostDuplicate(new int[]{1, 3, 6, 2}, 1, 2));
-        StdOut.println(s.containsNearbyAlmostDuplicate(new int[]{1, 2}, 0, 1));
-//        StdOut.println(s.containsNearbyAlmostDuplicate(new int[]{-1,2147483647}, 1, 2147483647));
+//        System.out.println(s.containsNearbyAlmostDuplicate(new int[]{1, 3, 1}, 1, 2));
+        System.out.println(s.containsNearbyAlmostDuplicate(new int[]{1, 3, 6, 2}, 1, 2));
+        System.out.println(s.containsNearbyAlmostDuplicate(new int[]{1, 2}, 0, 1));
+//        System.out.println(s.containsNearbyAlmostDuplicate(new int[]{-1,2147483647}, 1, 2147483647));
 	}
 }

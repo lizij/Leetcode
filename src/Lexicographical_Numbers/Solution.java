@@ -1,6 +1,6 @@
 package Lexicographical_Numbers;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -26,6 +26,6 @@ public class Solution {
 	public static void main(String[] args) {
         Solution s = new Solution();
         List<Integer> output1 = s.lexicalOrder(13);
-        for (Integer i : output1) StdOut.print(i + " ");
+        for (Integer i : output1) System.out.print(i + " ");
     }
 }

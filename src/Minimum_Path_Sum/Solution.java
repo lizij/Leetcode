@@ -1,6 +1,6 @@
 package Minimum_Path_Sum;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int minPathSum(int[][] grid) {
@@ -29,7 +29,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.minPathSum(new int[][]{
+        System.out.println(s.minPathSum(new int[][]{
                 { 1,10,11,12},
                 { 2, 3, 4, 5},
                 { 9, 8, 7, 6}

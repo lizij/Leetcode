@@ -1,7 +1,7 @@
 package Power_of_Three;
 
 import Others.Interval;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean isPowerOfThree(int n) {
@@ -11,7 +11,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.isPowerOfThree(27));
-        StdOut.println(s.isPowerOfThree(45));
+        System.out.println(s.isPowerOfThree(27));
+        System.out.println(s.isPowerOfThree(45));
 	}
 }

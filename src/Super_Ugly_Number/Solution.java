@@ -1,6 +1,6 @@
 package Super_Ugly_Number;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Arrays;
 
@@ -24,6 +24,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.nthSuperUglyNumber(12, new int[]{2,7,13,19}));//1, 2, 4, 7, 8, 13, 14, 16, 19, 26, 28, 32
+        System.out.println(s.nthSuperUglyNumber(12, new int[]{2,7,13,19}));//1, 2, 4, 7, 8, 13, 14, 16, 19, 26, 28, 32
 	}
 }

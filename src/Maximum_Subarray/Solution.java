@@ -1,6 +1,6 @@
 package Maximum_Subarray;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int maxSubArray(int[] nums) {
@@ -24,9 +24,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
-        StdOut.println(s.maxSubArray(new int[]{1,-2,3,-4,5,-6,7,-8}));
-        StdOut.println(s.maxSubArray(new int[]{-1}));
-        StdOut.println(s.maxSubArray(new int[]{-2, -1}));
+        System.out.println(s.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
+        System.out.println(s.maxSubArray(new int[]{1,-2,3,-4,5,-6,7,-8}));
+        System.out.println(s.maxSubArray(new int[]{-1}));
+        System.out.println(s.maxSubArray(new int[]{-2, -1}));
 	}
 }

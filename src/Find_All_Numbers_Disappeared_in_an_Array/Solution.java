@@ -1,6 +1,6 @@
 package Find_All_Numbers_Disappeared_in_an_Array;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,7 +27,7 @@ public class Solution {
     public static void main(String[] args) {
         Solution s = new Solution();
         for (int i: s.findDisappearedNumbers(new int[]{4,3,2,7,8,2,3,1})){
-            StdOut.print(i + " ");
+            System.out.print(i + " ");
         }
     }
 }

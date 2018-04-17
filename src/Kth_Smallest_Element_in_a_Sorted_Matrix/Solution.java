@@ -1,6 +1,6 @@
 package Kth_Smallest_Element_in_a_Sorted_Matrix;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.*;
 
@@ -109,6 +109,6 @@ public class Solution {
                 {10, 11, 13},
                 {12, 14, 15}
         };
-        StdOut.println(s.kthSmallest(input, 8));
+        System.out.println(s.kthSmallest(input, 8));
 	}
 }

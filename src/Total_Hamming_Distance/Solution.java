@@ -1,6 +1,6 @@
 package Total_Hamming_Distance;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int totalHammingDistance(int[] nums) {
@@ -26,6 +26,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.totalHammingDistance(new int[]{11, 8, 7, 4}));
+        System.out.println(s.totalHammingDistance(new int[]{11, 8, 7, 4}));
 	}
 }

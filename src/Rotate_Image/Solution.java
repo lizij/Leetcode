@@ -1,6 +1,6 @@
 package Rotate_Image;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public void rotate(int[][] matrix) {
@@ -21,14 +21,14 @@ public class Solution {
     }
 
     private void printMatrix(int[][] matrix){
-        StdOut.println("==========");
+        System.out.println("==========");
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                StdOut.print(String.format("%02d ", matrix[i][j]));
+                System.out.print(String.format("%02d ", matrix[i][j]));
             }
-            StdOut.println();
+            System.out.println();
         }
-        StdOut.println("==========");
+        System.out.println("==========");
     }
 
 	public static void main(String[] args) {

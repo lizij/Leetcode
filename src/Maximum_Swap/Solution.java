@@ -1,6 +1,6 @@
 package Maximum_Swap;
 
-import edu.princeton.cs.algs4.StdOut;
+
 public class Solution {
     public int maximumSwap(int num) {
         /**
@@ -30,7 +30,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.maximumSwap(2736));//7236
-        StdOut.println(s.maximumSwap(9973));//9973
+        System.out.println(s.maximumSwap(2736));//7236
+        System.out.println(s.maximumSwap(9973));//9973
 	}
 }

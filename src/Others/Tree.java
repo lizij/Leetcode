@@ -1,6 +1,6 @@
 package Others;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 
@@ -31,8 +31,8 @@ public class Tree {
         Tree at = new Tree(a);
         Tree bt = new Tree(b);
 
-        StdOut.println(at.root);
-        StdOut.println(bt.root);
+        System.out.println(at.root);
+        System.out.println(bt.root);
     }
 
     @Override

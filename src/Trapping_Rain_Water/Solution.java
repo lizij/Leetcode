@@ -1,6 +1,6 @@
 package Trapping_Rain_Water;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int trap(int[] height) {
@@ -22,6 +22,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1}));//6
+        System.out.println(s.trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1}));//6
 	}
 }

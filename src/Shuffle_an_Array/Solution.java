@@ -1,6 +1,6 @@
 package Shuffle_an_Array;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.Random;
 
@@ -39,6 +39,6 @@ public class Solution {
  */
 	public static void main(String[] args) {
 		Solution s = new Solution(new int[]{1, 2, 3});
-        for (int i: s.shuffle()) StdOut.print(i + " ");
+        for (int i: s.shuffle()) System.out.print(i + " ");
 	}
 }

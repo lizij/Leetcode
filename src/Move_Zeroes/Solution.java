@@ -1,6 +1,6 @@
 package Move_Zeroes;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public void moveZeroes(int[] nums) {
@@ -23,15 +23,15 @@ public class Solution {
 		Solution s = new Solution();
 		int[] input = {0, 1, 0, 3, 2};
 		s.moveZeroes(input);
-        for (int i: input) StdOut.print(i + " ");
-        StdOut.println();
+        for (int i: input) System.out.print(i + " ");
+        System.out.println();
         int[] input2 = {0, 0, 1};
         s.moveZeroes(input2);
-        for (int i: input2) StdOut.print(i + " ");
-        StdOut.println();
+        for (int i: input2) System.out.print(i + " ");
+        System.out.println();
         int[] input3 = {0};
         s.moveZeroes(input3);
-        for (int i: input3) StdOut.print(i + " ");
-        StdOut.println();
+        for (int i: input3) System.out.print(i + " ");
+        System.out.println();
 	}
 }

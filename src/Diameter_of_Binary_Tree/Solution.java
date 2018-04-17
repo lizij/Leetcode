@@ -2,7 +2,7 @@ package Diameter_of_Binary_Tree;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     int res;
@@ -23,9 +23,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.diameterOfBinaryTree(new Tree(new Object[]{1, 2, 3, 4, 5}).root));
-//        StdOut.println(s.diameterOfBinaryTree(new Tree(new Object[]{}).root));
-//        StdOut.println(s.diameterOfBinaryTree(new Tree(new Object[]{1}).root));
-        StdOut.println(s.diameterOfBinaryTree(new Tree(new Object[]{1,null,-9,null,8,4,-3,null,null,-3,null,-6,null,null,-6,-4,-9,null,null,6}).root));
+//        System.out.println(s.diameterOfBinaryTree(new Tree(new Object[]{1, 2, 3, 4, 5}).root));
+//        System.out.println(s.diameterOfBinaryTree(new Tree(new Object[]{}).root));
+//        System.out.println(s.diameterOfBinaryTree(new Tree(new Object[]{1}).root));
+        System.out.println(s.diameterOfBinaryTree(new Tree(new Object[]{1,null,-9,null,8,4,-3,null,null,-3,null,-6,null,null,-6,-4,-9,null,null,6}).root));
 	}
 }

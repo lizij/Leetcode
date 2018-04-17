@@ -1,6 +1,6 @@
 package Distribute_Candies;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -16,7 +16,7 @@ public class Solution {
         Solution s = new Solution();
         int[] input1 = {1, 1, 2, 2, 3, 3};
         int[] input2 = {1, 1, 2, 3};
-        StdOut.println(s.distributeCandies(input1));
-        StdOut.println(s.distributeCandies(input2));
+        System.out.println(s.distributeCandies(input1));
+        System.out.println(s.distributeCandies(input2));
     }
 }

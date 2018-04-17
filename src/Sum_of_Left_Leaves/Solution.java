@@ -2,7 +2,7 @@ package Sum_of_Left_Leaves;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public int sumOfLeftLeaves(TreeNode root) {
@@ -20,7 +20,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.sumOfLeftLeaves(new Tree(new Object[]{3, 9, 20, null, null, 15, 7}).root));
-        StdOut.println(s.sumOfLeftLeaves(new Tree(new Object[]{1, 2, 3, 4, 5}).root));
+        System.out.println(s.sumOfLeftLeaves(new Tree(new Object[]{3, 9, 20, null, null, 15, 7}).root));
+        System.out.println(s.sumOfLeftLeaves(new Tree(new Object[]{1, 2, 3, 4, 5}).root));
 	}
 }

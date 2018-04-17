@@ -2,7 +2,7 @@ package Path_Sum_III;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,7 +27,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.pathSum(new Tree(new Object[]{10,5,-3,3,2,null,11,3,-2,null,1}).root, 8));//3
-        StdOut.println(s.pathSum(new Tree(new Object[]{5,4,8,11,null,13,4,7,2,null,null,5,1}).root, 22));//3
+//        System.out.println(s.pathSum(new Tree(new Object[]{10,5,-3,3,2,null,11,3,-2,null,1}).root, 8));//3
+        System.out.println(s.pathSum(new Tree(new Object[]{5,4,8,11,null,13,4,7,2,null,null,5,1}).root, 22));//3
 	}
 }

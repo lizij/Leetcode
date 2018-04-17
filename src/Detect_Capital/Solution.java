@@ -1,6 +1,6 @@
 package Detect_Capital;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.regex.Pattern;
 
@@ -12,10 +12,10 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        StdOut.println(s.detectCapitalUse("USA"));
-        StdOut.println(s.detectCapitalUse("usa"));
-        StdOut.println(s.detectCapitalUse("Usa"));
-        StdOut.println(s.detectCapitalUse("FlaG"));
-        StdOut.println(s.detectCapitalUse("fLAg"));
+        System.out.println(s.detectCapitalUse("USA"));
+        System.out.println(s.detectCapitalUse("usa"));
+        System.out.println(s.detectCapitalUse("Usa"));
+        System.out.println(s.detectCapitalUse("FlaG"));
+        System.out.println(s.detectCapitalUse("fLAg"));
     }
 }

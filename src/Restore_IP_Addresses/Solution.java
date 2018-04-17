@@ -1,6 +1,6 @@
 package Restore_IP_Addresses;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -38,9 +38,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-//        StdOut.println(s.restoreIpAddresses("25525511135"));//255.255.11.135  255.255.111.35
-//        StdOut.println(s.restoreIpAddresses("0000"));//0.0.0.0
-//        StdOut.println(s.restoreIpAddresses("0279245587303"));//[]
-        StdOut.println(s.restoreIpAddresses("010010"));//0.10.0.10  0.100.1.0
+//        System.out.println(s.restoreIpAddresses("25525511135"));//255.255.11.135  255.255.111.35
+//        System.out.println(s.restoreIpAddresses("0000"));//0.0.0.0
+//        System.out.println(s.restoreIpAddresses("0279245587303"));//[]
+        System.out.println(s.restoreIpAddresses("010010"));//0.10.0.10  0.100.1.0
 	}
 }

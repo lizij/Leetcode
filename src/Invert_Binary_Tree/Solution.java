@@ -2,7 +2,7 @@ package Invert_Binary_Tree;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public TreeNode invertTree(TreeNode root) {
@@ -19,7 +19,7 @@ public class Solution {
     public static void main(String[] args) {
         Solution s = new Solution();
         Tree tree = new Tree(new Object[]{4, 2, 7, 1, 3, 6, 9});
-        StdOut.println(tree.root);
-        StdOut.println(s.invertTree(tree.root));
+        System.out.println(tree.root);
+        System.out.println(s.invertTree(tree.root));
     }
 }

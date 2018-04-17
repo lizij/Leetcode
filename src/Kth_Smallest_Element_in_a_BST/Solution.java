@@ -2,7 +2,7 @@ package Kth_Smallest_Element_in_a_BST;
 
 import Others.Tree;
 import Others.TreeNode;
-import edu.princeton.cs.algs4.StdOut;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,6 +23,6 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.kthSmallest(new Tree(new Object[]{4, 2, 6, 1, 3, 5, 7}).root, 5));
+        System.out.println(s.kthSmallest(new Tree(new Object[]{4, 2, 6, 1, 3, 5, 7}).root, 5));
 	}
 }

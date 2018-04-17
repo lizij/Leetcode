@@ -1,6 +1,6 @@
 package Ugly_Number;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean isUgly(int num) {
@@ -13,8 +13,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.isUgly(6));
-        StdOut.println(s.isUgly(8));
-        StdOut.println(s.isUgly(14));
+        System.out.println(s.isUgly(6));
+        System.out.println(s.isUgly(8));
+        System.out.println(s.isUgly(14));
 	}
 }

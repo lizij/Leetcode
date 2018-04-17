@@ -1,6 +1,6 @@
 package Fraction_Addition_and_Subtraction;
 
-import edu.princeton.cs.algs4.StdOut;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -65,9 +65,9 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.fractionAddition("-1/2+1/2"));
-        StdOut.println(s.fractionAddition("-1/2+1/2+1/3"));
-        StdOut.println(s.fractionAddition("1/3-1/2"));
-        StdOut.println(s.fractionAddition("5/3+1/3"));
+        System.out.println(s.fractionAddition("-1/2+1/2"));
+        System.out.println(s.fractionAddition("-1/2+1/2+1/3"));
+        System.out.println(s.fractionAddition("1/3-1/2"));
+        System.out.println(s.fractionAddition("5/3+1/3"));
 	}
 }

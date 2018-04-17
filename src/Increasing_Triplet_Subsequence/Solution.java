@@ -1,6 +1,6 @@
 package Increasing_Triplet_Subsequence;
 
-import edu.princeton.cs.algs4.StdOut;
+
 
 public class Solution {
     public boolean increasingTriplet(int[] nums) {
@@ -38,8 +38,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		Solution s = new Solution();
-        StdOut.println(s.increasingTriplet(new int[]{1,2,3,4,5}));
-        StdOut.println(s.increasingTriplet(new int[]{5,4,3,2,1}));
-        StdOut.println(s.increasingTriplet(new int[]{5,1,5,5,2,5,4}));
+        System.out.println(s.increasingTriplet(new int[]{1,2,3,4,5}));
+        System.out.println(s.increasingTriplet(new int[]{5,4,3,2,1}));
+        System.out.println(s.increasingTriplet(new int[]{5,1,5,5,2,5,4}));
 	}
 }
